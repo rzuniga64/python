@@ -16,7 +16,7 @@ ONEOUNCEGOLD = 1500
 ONEOUNCESILVER = 50
 ONEOUNCEPLATINUM = 2000
 SERVICEFEE = 0.02
-SALESTAX = 0.08
+SALESTAX = 0.10
 
 def calculateCost(ounces, costPerOunce):
     return (ounces * costPerOunce)
