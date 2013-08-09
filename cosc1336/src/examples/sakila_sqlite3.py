@@ -1,6 +1,6 @@
 import sqlite3 as db
 
-conn = db.connect('C:\\sqlite\\test.db')
+conn = db.connect('sakila_sqlite3.db')
 cursor = conn.cursor()
 
 #cursor.execute(".databases")

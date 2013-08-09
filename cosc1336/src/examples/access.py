@@ -3,7 +3,8 @@ import pyodbc
 def main():
     data = pyodbc.dataSources()
 #    connect = pyodbc.connect('DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\\sakila.accdb')
-    connect = pyodbc.connect('DSN=MS Access Database;Dbq=C:\\sakila.accdb')    
+   # connect = pyodbc.connect('DSN=MS Access Database;Dbq=C:\\sakila.accdb')
+    connect = pyodbc.connect('DSN=MS Access Database;Dbq=C:\\sakila.accdb')       
     cursor = connect.cursor()
     cursor.execute("SELECT * FROM actor")
     rows = cursor.fetchall()
