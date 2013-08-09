@@ -10,7 +10,7 @@ def GetOriginalMessage( filename ):
         document = open( filename, "r" )
     except:
         print( "File " + filename + " did not open." )
-        document = open( "C:\\workspaces\\workspace_python\\hw7\\src\\hw7.py", "r" )
+        document = open( "message.txt", "r" )
     message = ""
     for lineOfText in document:
         message = message + lineOfText
@@ -67,7 +67,7 @@ def generateEncodedMessage(message, encoder):
 # Input:   The message
 # Output:  An encoded message
 def main():
-    message = GetOriginalMessage( "C:\\workspaces\\workspace_python\\hw7\\src\\hw7.py" )
+    message = GetOriginalMessage( "message.txt" )
 
     encoder = createAlphabetEncoder()
     encodedMessage = generateEncodedMessage(message, encoder)

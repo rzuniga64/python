@@ -33,7 +33,6 @@ def ProcessDocument( filename ):
         else:
             senatorFields = [senatorFields[0], theSenator[0], theSenator[1], theSenator[2]]+ senatorFields[2:]
             
-        senatorFields = [senatorFields[0], theSenator[0], theSenator[1], theSenator[2]]+ senatorFields[2:]
         senators.append(senatorFields)
         yearsOfService = 2013 - int(senatorFields[-2])
         if senatorFields[-3] == "(R)":
