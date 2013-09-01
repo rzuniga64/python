@@ -121,6 +121,10 @@ def createDictionaries():
     states = dict()
     senators = dict()
     
+    # The way we want to retrieve rows is so that we can specify 
+    # each field using the field name. Think of the row
+    # as an array and each field name is an index
+    # into an element of that row.
     conn.row_factory = db.Row
     cursor.execute("select * from senators")
     rows = cursor.fetchall()
