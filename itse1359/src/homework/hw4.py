@@ -24,14 +24,14 @@ def printFileList(folder, fileList):
     print("Files for folder %s:" % folder)
     
     for file in fileList:
-        print(file)
+        print("%s" % file)
 
 def main():
     
     """ Create a folder named 'FilesToList' """
     folder = 'C:\\tmp\\FilesToList'
 
-    if not (os.path.isdir('C:\\tmp\\FilesToList')):
+    if not (os.path.isdir(folder)):
         os.mkdir(folder)
         
     """
