@@ -16,7 +16,8 @@ class Car:
     """
     def __init__(self, make=" ", model=" ", year=0):
         if not isinstance(make, str) or not isinstance(model, str) or not isinstance(year, int):
-            raise TypeError('Car requires make and model as string and year as integer but was given %10s %10s %4s' % (type(make), type(model), type(year)))
+            raise TypeError('Car requires make and model as string and year as integer but was given %10s %10s %4s'
+                            % (type(make), type(model), type(year)))
 
         self.__make = make
         self.__model = model
