@@ -1,5 +1,3 @@
-import types
-
 class Fridge:
     """This class implements a fridge where ingredients
     can be added and removed individually, or in groups.
@@ -20,7 +18,7 @@ class Fridge:
 
     def __init__(self, items):
         """Optionally pass in an initial dictionary of items"""
-        if type(items) != type(dict()):
+        if isinstance(items, dict):
             raise TypeError("Fridge requires a dictionary but was given %s" % type(items))
         self.items = items
         return
@@ -55,7 +53,7 @@ class Fridge:
     def add_one(self, food_name):
         """ adds a singe food_name to the fridge. Returns True.
         Raises a TypeError if food_name is not a string """
-        if type(food_name) != type(""):
+        if isinstance(food_name, str):
             raise TypeError("add_one requires a string, given a %s" % type(food_name))
         else:
             self.__add_multi(food_name, 1)
@@ -67,7 +65,7 @@ class Fridge:
         Returns a dictionary with the removed food.  Raises a TypeError if food_dict 
         is not a dictionary.Returns False if there is not enough food in the fridge"""
 
-        if type(food_dict) != type(dict()):
+        if isinstance(food_dict, dict):
             raise TypeError("add_many requires a dictionary, got a %s" % food_dict)
 
         for item in food_dict.keys():
@@ -97,7 +95,7 @@ class Fridge:
         """Takes out a single food_name from the fridge. Returns a dictionary with the 
         food: 1 as a result, or False if there wasn't enough in the fridge."""
 
-        if type(food_name) != type(""):
+        if isinstance(food_name, str):
             raise TypeError("get_one requires a string, given a %s" % type(food_name))
         else:
             result = self.__get_multi(food_name, 1)
@@ -140,7 +138,11 @@ class Omelet:
 
     def __init__(self, kind='cheese'):
         """This initializes the Omelet class to default to a cheese omelet."""
-        self.set_kind(kind)
+        self.cooked = True
+        self.mixed = True
+        self.from_fridge = dict()
+        self.needed_ingredients = dict()
+        self.kind = kind
         return
 
     def __ingredients__(self):
@@ -185,4 +187,4 @@ class Omelet:
     def make(self):
         if self.mixed is True:
             print("Cooking the %s omelet!" % self.kind)
-            self.cooked = True
+        self.cooked = True
