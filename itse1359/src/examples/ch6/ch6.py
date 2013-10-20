@@ -1,9 +1,11 @@
-import ch6classes as Omelet
-import ch6classes as Fridge
+import Omelet as Omelet
+import Fridge as Fridge
+import sys
 
 
 def main():
 
+    print(sys.path)
     f = Fridge.Fridge({'eggs': 6, 'milk': 4, 'cheese': 3})
     f.add_one('grape')
     f.add_many({'mushroom': 5, 'tomato': 3})
