@@ -1,3 +1,6 @@
+import types
+
+
 class Fridge:
     """This class implements a fridge where ingredients
     can be added and removed individually, or in groups.
@@ -18,8 +21,9 @@ class Fridge:
 
     def __init__(self, items):
         """Optionally pass in an initial dictionary of items"""
-        if isinstance(items, dict):
+        if type(items) != type(dict()):
             raise TypeError("Fridge requires a dictionary but was given %s" % type(items))
+        self.foods_removed = dict()
         self.items = items
         return
 
@@ -53,7 +57,7 @@ class Fridge:
     def add_one(self, food_name):
         """ adds a singe food_name to the fridge. Returns True.
         Raises a TypeError if food_name is not a string """
-        if isinstance(food_name, str):
+        if type(food_name) != type(' '):
             raise TypeError("add_one requires a string, given a %s" % type(food_name))
         else:
             self.__add_multi(food_name, 1)
@@ -65,7 +69,7 @@ class Fridge:
         Returns a dictionary with the removed food.  Raises a TypeError if food_dict 
         is not a dictionary.Returns False if there is not enough food in the fridge"""
 
-        if isinstance(food_dict, dict):
+        if type(food_dict) != type(dict()):
             raise TypeError("add_many requires a dictionary, got a %s" % food_dict)
 
         for item in food_dict.keys():
@@ -107,10 +111,9 @@ class Fridge:
         a dictionary isn't provided"""
 
         if self.has_various(food_dict):
-            foods_removed = dict()
             for item in food_dict.keys():
-                foods_removed[item] = self.__get_multi(item, food_dict[item])
-        return foods_removed
+                self.foods_removed[item] = self.__get_multi(item, food_dict[item])
+        return self.foods_removed
 
     def get_ingredients(self, food):
         """ if passed an object that has the __ingredients__ method, get_many will 
@@ -142,7 +145,7 @@ class Omelet:
         self.mixed = True
         self.from_fridge = dict()
         self.needed_ingredients = dict()
-        self.kind = kind
+        self.set_kind(kind)
         return
 
     def __ingredients__(self):
