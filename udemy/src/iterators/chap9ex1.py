@@ -1,12 +1,12 @@
 def main():
-    square={(10,8), (10,23), (25,23), (25,8)}
+    square = {(10, 8), (10, 23), (25, 23), (25, 8)}
     for points in square:
         print(points)
     
-    squareit = iter(square)
-    print(next(squareit))
-    print(next(squareit))
-    print(next(squareit))
-    print(next(squareit))
+    square_it = iter(square)
+    print(next(square_it))
+    print(next(square_it))
+    print(next(square_it))
+    print(next(square_it))
                 
 main()
