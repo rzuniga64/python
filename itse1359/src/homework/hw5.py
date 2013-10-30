@@ -1,6 +1,3 @@
-__author__ = 'Raul Zuniga'
-
-
 class Car:
     """
     Purpose: This class implements a car where the make, model and year
