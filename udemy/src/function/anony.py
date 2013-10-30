@@ -4,11 +4,12 @@
 #def square(number):
 #   return number * number
 
+
 def main():
     #square = lambda x: x*x
     #print(square(2))
-    numbers = [1,2,3,4]
-    numberssq = list(map(lambda x:x*x, numbers))
-    print(numberssq)
+    numbers = [1, 2, 3, 4]
+    numbers_sq = list(map(lambda x: x*x, numbers))
+    print(numbers_sq)
     
 main()
