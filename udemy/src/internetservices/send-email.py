@@ -16,4 +16,4 @@ try:
     server.sendmail(sender, receivers, message)
     server.quit()
 except SMTPException:
-    print ("Error: unable to send email")
+    print("Error: unable to send email")
