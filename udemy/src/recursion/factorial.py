@@ -4,6 +4,7 @@ def factorial(number):
         product *= i
     return product
 
+
 def main():
     print("Enter a number: ")
     num = int(input())
