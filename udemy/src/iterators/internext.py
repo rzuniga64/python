@@ -1,6 +1,6 @@
 # creating an explicit iterator
 def main():
-    numbers = [1,2,3]
+    numbers = [1, 2, 3]
     
     # create an explicit iterator
     it = iter(numbers)
@@ -10,7 +10,7 @@ def main():
     
     #file object is automatically set up as an iterator
     # so don't need to call an iter function
-    fileIt = open("grades.txt", "r")
-    print(next(fileIt), end='')
+    file_it = open("grades.txt", "r")
+    print(next(file_it), end='')
     
 main()
