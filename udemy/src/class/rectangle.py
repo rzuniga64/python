@@ -18,10 +18,10 @@ class Rectangle(Shape):
         self.height = height
 
     def __str__(self):
-        retStr = Shape.__str__(self)
-        retStr += ' width: ' + str(self.width) + \
+        ret_str = Shape.__str__(self)
+        ret_str += ' width: ' + str(self.width) + \
             ' height: ' + str(self.height)
-        return retStr
+        return ret_str
 
 rec = Rectangle(5, 10, 8, 9)
 print(rec)
