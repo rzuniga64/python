@@ -1,29 +1,30 @@
 class Employee:
-   def __init__(self, name, payRate):
-      self.name = name
-      self.payRate = payRate
+    def __init__(self, name, pay_rate):
+        self.name = name
+        self.pay_rate = pay_rate
 
-   def __str__(self):
-      return self.name + ", " + str(self.payRate)
+    def __str__(self):
+        return self.name + ", " + str(self.pay_rate)
 
-   def pay(self, hoursWorked):
-      return self.payRate * hoursWorked
+    def pay(self, hours_worked):
+        return self.pay_rate * hours_worked
+
 
 class Manager(Employee):
-   def __init__(self, name, payRate, isSalaried):
-      Employee.__init__(self, name, payRate)
-      self.salaried = isSalaried
+    def __init__(self, name, pay_rate, is_salaried):
+        Employee.__init__(self, name, pay_rate)
+        self.salaried = is_salaried
 
-   def __str__(self):
-      retStr = Employee.__str__(self)
-      retStr += " salaried: " + str(self.salaried)
-      return retStr
+    def __str__(self):
+        ret_str = Employee.__str__(self)
+        ret_str += " salaried: " + str(self.salaried)
+        return ret_str
 
-   def pay(self, hoursWorked):
-      if self.salaried:
-         return self.payRate
-      else:
-         return self.payRate * hoursWorked
+    def pay(self, hours_worked):
+        if self.salaried:
+            return self.pay_rate
+        else:
+            return self.pay_rate * hours_worked
 
 e1 = Employee("John Jones", 10.00)
 print(e1)
