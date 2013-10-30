@@ -1,10 +1,9 @@
 import os
 import shutil
-""" 
-    Purpose: This script prints the list of files and/or folders that exist in a folder.
-"""
+    # Purpose: This script prints the list of files and/or folders that exist in a folder.
 
-def getFileList(folder):
+
+def get_file_list(folder):
      
     """
     Function: getFileList(folder)
@@ -13,7 +12,8 @@ def getFileList(folder):
     """
     return os.listdir(folder)
 
-def printFileList(folder, fileList):
+
+def print_file_list(folder, file_list):
     
     """
     Function: printFileList(folder, fileList)
@@ -23,8 +23,9 @@ def printFileList(folder, fileList):
     
     print("Files for folder %s:" % folder)
     
-    for file in fileList:
+    for file in file_list:
         print("%s" % file)
+
 
 def main():
     
@@ -33,28 +34,24 @@ def main():
 
     if not (os.path.isdir(folder)):
         os.mkdir(folder)
-        
-    """
-    Create 3 empty files named 'file1.txt', 'file2.txt', 'file3.txt' 
-    in the 'FilesToList' folder you just created.
-    """
-    outFile1 = open(folder + '\\file1.txt', 'w')
-    outFile2 = open(folder + '\\file2.txt', 'w')
-    outFile3 = open(folder + '\\file3.txt', 'w')
-    outFile1.close()
-    outFile2.close()
-    outFile3.close()
+
+    # Create 3 empty files named 'file1.txt', 'file2.txt', 'file3.txt'
+    # in the 'FilesToList' folder you just created.
+    out_file1 = open(folder + '\\file1.txt', 'w')
+    out_file2 = open(folder + '\\file2.txt', 'w')
+    out_file3 = open(folder + '\\file3.txt', 'w')
+    out_file1.close()
+    out_file2.close()
+    out_file3.close()
+
+    # Call the 'getFileList' function in main passing in the path of the folder you
+    # created in Part 1.
     
-    """
-    Call the 'getFileList' function in main passing in the path of the folder you 
-    created in Part 1.
+    # Call the 'printFileList' function in main passing in the path of the folder
+    # as the first argument and the file list returned from 'getFileList' as the second argument.
+    print_file_list(folder, get_file_list(folder))
     
-    Call the 'printFileList' function in main passing in the path of the folder 
-    as the first argument and the file list returned from 'getFileList' as the second argument. 
-    """
-    printFileList(folder, getFileList(folder))
-    
-    """ Remove the non-empty directory that was created """
+    #Remove the non-empty directory that was created
     shutil.rmtree(folder)
     
 main()
