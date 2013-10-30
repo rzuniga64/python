@@ -4,18 +4,19 @@
 
 import os
 
+
 def main():
-    numbers = range(1,11)
+    numbers = range(1, 11)
     it = iter(numbers)
     print(next(it))
     
     files = os.popen('dir *.py')
-    fileit = iter(files)
+    file_it = iter(files)
     for file in files:
         print(file)
         
-    print(next(fileit), end='')
-    print(next(fileit), end='')
+    print(next(file_it), end='')
+    print(next(file_it), end='')
 
 
 main()
