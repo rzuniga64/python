@@ -5,6 +5,15 @@ conn = sqlite3.connect('sample_database')
 cursor = conn.cursor()
 employee = sys.argv[1]
 
+"""
+    when you run this script you need to pass the user name
+    of the person to terminate.  you should see no output
+    unless the script raises an error.
+
+    Example: $python finduser.py bunny
+             $python terminate.py bunny
+             $python finduser.py bunny
+"""
 # Query to find the employee ID.
 query = """SELECT e.empid
            FROM user u, employee e

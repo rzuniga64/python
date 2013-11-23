@@ -1,5 +1,6 @@
 import sqlite3
 
+
 conn = sqlite3.connect('sample_database')
 cursor = conn.cursor()
 username = 'bunny'

@@ -1,6 +1,14 @@
 import sqlite3
 import sys
 
+"""
+    When you run this script you need to pass the name of the user
+    to update, as well as the neme of the manager.  both names are
+    user names from the user table.
+
+    Example: $python updatemgr.py bunny ericfj
+"""
+
 conn = sqlite3.connect('sample_database')
 cursor = conn.cursor()
 newmgr = sys.argv[2]
