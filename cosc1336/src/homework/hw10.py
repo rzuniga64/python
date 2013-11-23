@@ -116,7 +116,8 @@ def create_dictionaries():
     conn = db.connect('senators.db')
     cursor = conn.cursor()
     cursor.execute("drop table if exists senators")
-    cursor.execute("create table senators(state text, lname text, initial text, fname text, party text, termstart text, termend text)")
+    cursor.execute("create table senators(state text, lname text, initial text, fname text,\
+                                          party text, termstart text, termend text)")
     for data in table_data['senators']:
         cursor.execute("insert into senators values('%s', '%s', '%s', '%s', '%s', '%s', '%s')"
                        % (data[0], data[1], data[2], data[3], data[4], data[5], data[6]))
@@ -124,7 +125,7 @@ def create_dictionaries():
     states = dict()
     senators = dict()
     
-    # The way we want to retrieve rows is so that we can specify 
+    # The way we want to retrieve rows is so that we can specify
     # each field using the field name. Think of the row
     # as an array and each field name is an index
     # into an element of that row.
