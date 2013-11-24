@@ -1,4 +1,4 @@
-'''
+"""
 Purpose: create a simple GUI
 
 Create an interface with the following widgets and functionality.
@@ -9,11 +9,14 @@ Each widget should have a padding of 5 pixels in each dimension (x and y).
 2. Entry 1 to the right of label 1.
 3. Label 2 with the text "Number 2:", below label 1.
 4. Entry 2 to the right of label 2.
-5. Button with the text "Add", below label 2. This button should call a function that gets the values from entry 1 and entry 2, adds them and prints out the total.
+5. Button with the text "Add", below label 2. This button should call a function that gets the values from entry 1
+   and entry 2, adds them and prints out the total.
 
-(Hint: you'll want to use a Frame for label 1/entry 1 and label 2/entry 2)'''
+(Hint: you'll want to use a Frame for label 1/entry 1 and label 2/entry 2)
+"""
 
 from tkinter import *
+
 
 class SimpleGUI:
     def __init__(self):
@@ -45,13 +48,13 @@ class SimpleGUI:
         
         # Create and pack the widgets for sum_frame
         self.label3 = Label(self.sum_frame, text='Total')
-        self.sum = StringVar() # to update sum_label
+        self.sum = StringVar()  # to update sum_label
         self.sum_label = Label(self.sum_frame, textvariable=self.sum)
         self.label3.pack(padx=5, pady=5, side='left')
         self.sum_label.pack(padx=5, pady=5, side='left')
         
         # Create and pack the widgets for button_frame
-        self.add_button  = Button(self.button_frame, text='Add', command=self.add)
+        self.add_button = Button(self.button_frame, text='Add', command=self.add)
         self.quit_button = Button(self.button_frame, text='Quit', command=self.root.destroy)
         
         self.add_button.pack(padx=5, pady=5, side='left')
@@ -66,14 +69,8 @@ class SimpleGUI:
         self.num2 = float(self.entry2.get())
         
         # Calculate the sum
+
         self.sum_of_nums = self.num1 + self.num2
         self.sum.set(self.sum_of_nums)
             
 test_gui = SimpleGUI()
-            
-            # Update the sum_label widget by storing the value of
-            # self.sum in the StringVar object referenced by sum.
-            
-            
-            
-        
