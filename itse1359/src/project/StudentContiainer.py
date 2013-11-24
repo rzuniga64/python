@@ -40,7 +40,7 @@ class StudentContainer():
         self.message.set('Student successfully added!')
 
     def make_widgets(self):
-        # Create and pack the widgets for frame 1
+        # Labels and Edit boxes
         LabelEntry(self.frame1, text="First Name", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame1, text="Last Name", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame2, text="Street", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
@@ -51,9 +51,12 @@ class StudentContainer():
         LabelEntry(self.frame4, text="Phone", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame5, text="School", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame5, text="Major", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
-        Button(self.frame6, text="Add", command=self.on_click_add, relief=RAISED, bg="light blue", fg="black").pack(
-            padx=5, pady=5, side=LEFT)
+        # Add button and label
+        add_button = Button(self.frame6, text="Add", command=self.on_click_add)
+        add_button.config(relief=RAISED, bg="light blue", fg="black")
+        add_button.pack(padx=5, pady=5, side=LEFT)
         Label(self.frame6, textvariable=self.message).pack(side=LEFT)
+        # Text box and scrollbar
         sbar = Scrollbar(self.frame7)
         text = Text(self.frame7, relief=SUNKEN)
         sbar.config(command=text.yview)
@@ -61,12 +64,16 @@ class StudentContainer():
         sbar.pack(side=RIGHT, fill=Y)
         text.pack(side=LEFT, expand=YES, fill=BOTH)
         self.text = text
-        Button(self.frame8, text="Display List of Students", command=self.on_click_add, relief=RAISED, bg="light blue",
-               fg="black").pack(padx=5, pady=5, side=LEFT)
-        Button(self.frame8, text="Clear", command=self.clear_text, relief=RAISED, bg="light blue", fg="black").pack(
-            padx=5, pady=5, side=LEFT)
-        Button(self.frame8, text="Quit", command=exit, relief=RAISED, bg="light blue", fg="black").pack(padx=5, pady=5,
-                                                                                                        side=LEFT)
+        # Display, Clear and Quit buttons
+        display_button = Button(self.frame8, text="Display List of Students", command=self.on_click_add)
+        display_button.config(relief=RAISED, bg="light blue", fg="black")
+        display_button.pack(padx=5, pady=5, side=LEFT)
+        clear_button = Button(self.frame8, text="Clear", command=self.clear_text)
+        clear_button.config(relief=RAISED, bg="light blue", fg="black")
+        clear_button.pack(padx=5, pady=5, side=LEFT)
+        quit_button = Button(self.frame8, text="Quit", command=exit)
+        quit_button.config(relief=RAISED, bg="light blue", fg="black")
+        quit_button.pack(padx=5, pady=5, side=LEFT)
 
     def set_text(self, text=' '):
         self.text.delete('1.0', END)                     # delete current text
