@@ -8,6 +8,7 @@ class StudentContainer():
         self.root = Tk()
         self.root.title("Enter Student Information")
         self.message = StringVar()
+        self.text = ' '
 
         # Create frames
         self.frame1 = Frame(self.root)
@@ -50,7 +51,8 @@ class StudentContainer():
         LabelEntry(self.frame4, text="Phone", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame5, text="School", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
         LabelEntry(self.frame5, text="Major", width=14, anchor=E).pack(padx=5, pady=5, side=RIGHT)
-        Button(self.frame6, text="Add", command=self.on_click_add, relief=RAISED, bg="light blue", fg="black").pack(padx=75,pady=5, side=LEFT)
+        Button(self.frame6, text="Add", command=self.on_click_add, relief=RAISED, bg="light blue", fg="black").pack(
+            padx=5, pady=5, side=LEFT)
         Label(self.frame6, textvariable=self.message).pack(side=LEFT)
         sbar = Scrollbar(self.frame7)
         text = Text(self.frame7, relief=SUNKEN)
@@ -59,9 +61,12 @@ class StudentContainer():
         sbar.pack(side=RIGHT, fill=Y)
         text.pack(side=LEFT, expand=YES, fill=BOTH)
         self.text = text
-        Button(self.frame8, text="Display List of Students", command=self.on_click_add, relief=RAISED, bg="light blue", fg="black").pack(padx=5 ,pady=5, side=LEFT)
-        Button(self.frame8, text="Clear", command=self.clear_text, relief=RAISED, bg="light blue", fg="black").pack(padx=5 ,pady=5, side=LEFT)
-        Button(self.frame8, text="Quit", command=exit, relief=RAISED, bg="light blue", fg="black").pack(padx=5 ,pady=5, side=LEFT)
+        Button(self.frame8, text="Display List of Students", command=self.on_click_add, relief=RAISED, bg="light blue",
+               fg="black").pack(padx=5, pady=5, side=LEFT)
+        Button(self.frame8, text="Clear", command=self.clear_text, relief=RAISED, bg="light blue", fg="black").pack(
+            padx=5, pady=5, side=LEFT)
+        Button(self.frame8, text="Quit", command=exit, relief=RAISED, bg="light blue", fg="black").pack(padx=5, pady=5,
+                                                                                                        side=LEFT)
 
     def set_text(self, text=' '):
         self.text.delete('1.0', END)                     # delete current text
@@ -71,5 +76,6 @@ class StudentContainer():
 
     def clear_text(self):
         self.text.delete('1.0', END)                     # delete current text
+
 
 test_gui = StudentContainer(text='Words\ngo here')
