@@ -1,4 +1,6 @@
 from tkinter import *                   # get Tk widget classes
+from time import sleep
+import _thread
 from LabelEntry import LabelEntry       # get the LabelEntry class
 from StudentDB import StudentDB         # get the StudentDB class
 
@@ -10,11 +12,12 @@ from StudentDB import StudentDB         # get the StudentDB class
 
 
 class StudentContainer():
-    def __init__(self, text=' '):
+    def __init__(self):
 
         # Create a database to store information typed into the GUI interface
         self.studentdb = StudentDB()
-        #self.le0, self.le1, self.le2, self.le3, self.le4, self.le5, self.le6, self.le7, self.le8, self.le9 = ' '
+        self.le0, self.le1, self.le2, self.le3, self.le4 = '', '', '', '', ''
+        self.le5, self.le6, self.le7, self.le8, self.le9 = '', '', '', '', ''
 
         # Create the main window
         self.root = Tk()
@@ -80,7 +83,7 @@ class StudentContainer():
         sbar = Scrollbar(self.frame7)
         text = Text(self.frame7, relief=SUNKEN)
         sbar.config(command=text.yview)
-        text.config(yscrollcommand=sbar.set, bd=5, height=15)
+        text.config(yscrollcommand=sbar.set, bd=5, height=15, width=130)
         sbar.pack(side=RIGHT, fill=Y)
         text.pack(side=LEFT, expand=YES, fill=BOTH)
         self.text = text
@@ -102,6 +105,11 @@ class StudentContainer():
         self.text.mark_set(INSERT, '1.0')                # set insert cursor
         self.text.focus()                                # save user a click
 
+    def clear_message(self, count):                        # function run in threads
+        for i in range(count):
+            sleep(count)                            # simulate real work
+            self.message.set(' ')
+
     def on_click_add(self):
         fname = self.le0.get_entry()
         lname = self.le1.get_entry()
@@ -117,7 +125,8 @@ class StudentContainer():
         is_inserted = self.studentdb.insert_record(student_info)
         if is_inserted:
             self.message.set('Student successfully added!')
-
+            for i in range(5):
+                _thread.start_new_thread(self.clear_message, (5,))     # each thread loops 5 times
 
     def on_click_display(self):
         text = ' '
