@@ -1,9 +1,13 @@
+"""
+     Purpose: A reusable GUI module that contains a Label and Entry.
+     Input: text to be displayed in the Label
+"""
 from tkinter import *
 
 
-class LabelEntry(Frame):                        # an extended Frame
+class LabelEntry(Frame):                # an extended Frame
     def __init__(self, parent=None, **config):
-        Frame.__init__(self, parent)             # do superclass init
+        Frame.__init__(self, parent)    # do superclass init
         self.pack()
         # Create and pack the widgets for frame
         self.label1 = Label(parent, **config).pack(padx=5, pady=5, side=LEFT, expand=YES, fill=BOTH)
