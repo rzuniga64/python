@@ -1,14 +1,14 @@
+    # Purpose: to allow a user to input student information from
+    # a GUI interface.  The user will press a button to add input
+    # data into a database.  The user will press a button to
+    # retrieve all data input into database.
+    # Input: A list of values input from a GUI interface
+
 from tkinter import *                   # get Tk widget classes
 from time import sleep
 import _thread
 from LabelEntry import LabelEntry       # get the LabelEntry class
 from StudentDB import StudentDB         # get the StudentDB class
-
-    # Purpose: to allow a user to input student information and from
-    # a GUI interface.  The user will press a button to add input
-    # data into a database.  The user will press a button to
-    # retrieve all data input into database.
-    # Input: A list of values input from a GUI interface
 
 
 class StudentContainer():
@@ -111,22 +111,25 @@ class StudentContainer():
             self.message.set(' ')
 
     def on_click_add(self):
-        fname = self.le0.get_entry()
-        lname = self.le1.get_entry()
-        street = self.le2.get_entry()
-        city = self.le3.get_entry()
-        state = self.le4.get_entry()
-        zipcode = int(self.le5.get_entry())
-        email = self.le6.get_entry()
-        phone = self.le7.get_entry()
-        school = self.le8.get_entry()
-        major = self.le9.get_entry()
-        student_info = [fname, lname, street, city, state, zipcode, email, phone, school, major]
-        is_inserted = self.studentdb.insert_record(student_info)
-        if is_inserted:
-            self.message.set('Student successfully added!')
-            for i in range(5):
-                _thread.start_new_thread(self.clear_message, (5,))     # each thread loops 5 times
+        try:
+            fname = self.le0.get_entry().strip(' ')
+            lname = self.le1.get_entry()
+            street = self.le2.get_entry()
+            city = self.le3.get_entry()
+            state = self.le4.get_entry()
+            zipcode = int(self.le5.get_entry())
+            email = self.le6.get_entry()
+            phone = self.le7.get_entry()
+            school = self.le8.get_entry()
+            major = self.le9.get_entry()
+            student_info = [fname, lname, street, city, state, zipcode, email, phone, school, major]
+            is_inserted = self.studentdb.insert_record(student_info)
+            if is_inserted:
+                self.message.set('Student successfully added!')
+                _thread.start_new_thread(self.clear_message, (5,))     # clear the message after 5 sec
+        except ValueError:
+            self.message.set('Zip: expected number but got a literal. Please correct the error!')
+            _thread.start_new_thread(self.clear_message, (10,))     # clear the message after 5 sec
 
     def on_click_display(self):
         text = ' '

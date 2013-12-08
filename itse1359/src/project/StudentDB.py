@@ -1,10 +1,12 @@
+"""
+     Purpose: to create and then store  a database of information about
+     students that is typed into a GUI interface from the StudentContainer
+     class.
+     Input: A list that is passed from StudentContainer class to input
+     records into the database and a query formatted as a string to retrieve
+     information from the database.
+"""
 import sqlite3
-    # Purpose: to create and then store  a database of information about
-    # students that is typed into a GUI interface from the StudentContainer
-    # class.
-    # Input: A list that is passed from StudentContainer class to input
-    # records into the database and a query formatted as a string to retrieve
-    # information from the database.
 
 
 class StudentDB():
@@ -40,7 +42,7 @@ class StudentDB():
         count = len(self.cursor.fetchall())
         self.cursor.close()
         self.conn.close()
-        if count == 1:
+        if count >= 1:
             return True
         return False
 

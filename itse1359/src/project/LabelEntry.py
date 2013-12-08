@@ -21,4 +21,3 @@ if __name__ == '__main__':
     root = Tk()
     LabelEntry(root, text='First Name')
     root.mainloop()
-    print("hello")
