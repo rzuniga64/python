@@ -22,6 +22,7 @@ class SimpleGUI:
     def __init__(self):
         #Create the main window
         self.root = Tk()
+
         # Create 3 frames
         self.frame1 = Frame(self.root)
         self.frame2 = Frame(self.root)
@@ -41,8 +42,8 @@ class SimpleGUI:
         self.entry1.pack(padx=5, pady=5, side='left')
         
         #Create and pack the widgets for frame2
-        self.label2 = Label(self.frame2, text='Number 2')
-        self.entry2 = Entry(self.frame2, width=10)
+        self.label2 = Label(self.frame1, text='Number 2')
+        self.entry2 = Entry(self.frame1, width=10)
         self.label2.pack(padx=5, pady=5, side='left')
         self.entry2.pack(padx=5, pady=5, side='left')
         
