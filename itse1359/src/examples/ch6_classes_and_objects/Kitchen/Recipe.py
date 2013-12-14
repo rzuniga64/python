@@ -31,7 +31,7 @@ class Recipe:
         """
         
         self.recipes[name] = ingredients
-    
+
 if __name__ == '__main__':
     r = Recipe()
     if r.recipes != {"cheese": {"eggs": 2, "milk": 1, "cheese": 1},
