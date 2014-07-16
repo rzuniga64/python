@@ -29,8 +29,8 @@ def send():
     text = input("Enter the subject: ")
     username = input("Enter your user name: ")
     password = input("Enter our password: ")
-    msg = MIMIMultipart()
-    msg('From') = fromaddr
+    msg = MIMEMultipart()
+    msg['From'] = fromaddr
     msg['To'] = toaddr
     msg['Subject'] = subject
     msg.attach(MIMEText(text))
