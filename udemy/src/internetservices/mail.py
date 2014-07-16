@@ -2,8 +2,8 @@ import smtplib
 import imaplib
 import os
 
-from email.MIMEText import MIMEText
-from email.MIMEMultipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 
 def read():
@@ -17,8 +17,8 @@ def read():
     mailserver.close()
     mailserver.logout()
 
-    choice = input("Epress x to clear screen: ")
-    if choice == "x'":
+    mychoice = input("Epress x to clear screen: ")
+    if mychoice == "x'":
         os.system("cls")
 
 
