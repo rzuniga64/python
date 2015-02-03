@@ -1,39 +1,44 @@
 import random
 
-Suits = [ "Clubs", "Diamonds", "Hearts", "Spades" ]
-Ranks = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace" ]
+Suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+Ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 
-def createDeck():
+
+def create_deck():
     deck = []
 
     for suit in Suits:
         for rank in Ranks:
-            card = str( rank ) + " of " + suit
-            deck.append( card )
+            card = str(rank) + " of " + suit
+            deck.append(card)
 
     return deck
 
-def shuffle( deck ):
-    for times in range( 100 ):
-        randomPosition = random.randint( 1, 51 )
+
+def shuffle(deck):
+    for times in range(100):
+        random_position = random.randint(1, 51)
         # Swap the value in element 0 with the random position.
         temp = deck[0]
-        deck[0] = deck[randomPosition]
-        deck[randomPosition] = temp
+        deck[0] = deck[random_position]
+        deck[random_position] = temp
 
-def deal( deck, nCards ):
+
+def deal(deck, n_cards):
     hand = []
-    for n in range( nCards ):
-        hand.append( deck[n] )
+    for n in range(n_cards):
+        hand.append(deck[n])
     return hand
 
-def giveRank( card ):
+
+def give_rank(card):
     # Find first space in card names of the form: <rank> of <suit>
-    space = card.find( " " )
+    space = card.find(" ")
     rank = card[0:space]
     return rank
 
-def giveClubIndex( rank ):
+
+def give_club_index(rank):
     if rank == "Ace":
         return 12
     if rank == "King":
@@ -42,23 +47,25 @@ def giveClubIndex( rank ):
         return 10
     if rank == "Jack":
         return 9
-    return int( rank ) - 2
+    return int(rank) - 2
 
-def countUsageInHand( hand ):
-    rankCount = [ 0 ] * 13
+
+def count_usage_in_hand(hand):
+    rank_count = [0] * 13
     for card in hand:
-        itsRank = giveRank( card )
+        its_rank = give_rank(card)
         # Map names of ranks on each card (as strings) into integers 0..12.
-        rankIndex = giveClubIndex( itsRank )
-        rankCount[rankIndex] += 1
-    return rankCount
+        rank_index = give_club_index(its_rank)
+        rank_count[rank_index] += 1
+    return rank_count
+
 
 def main():
-    playingCards = createDeck()
-    shuffle( playingCards )
-    fiveCards = deal( playingCards, 5 )
-    print( fiveCards )
-    rankCounts = countUsageInHand( fiveCards )
-    print( rankCounts )
+    playing_cards = create_deck()
+    shuffle(playing_cards)
+    five_cards = deal(playing_cards, 5)
+    print(five_cards)
+    rank_counts = count_usage_in_hand(five_cards)
+    print(rank_counts)
 
 main()
