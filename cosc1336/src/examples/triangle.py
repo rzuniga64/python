@@ -1,5 +1,6 @@
 # Triangle
-# By starting at the top of the triangle and moving to adjacent numbers on the row below, the maximum total from top to bottom is 27.
+# By starting at the top of the triangle and moving to adjacent numbers on the row below,
+# the maximum total from top to bottom is 27.
 #
 #        5
 #      9  6
@@ -12,12 +13,14 @@
 # from top to bottom in triangle.txt, a text file containing a triangle with 100 rows. 
 # Send your solution and resume to [123456 AT yodle dot com],
 # replacing 123456 with the maximum sum for the triangle.
-def processDocument(filename):
+
+
+def process_document(filename):
     try:
         document = open(filename, "r")
     except:
-        print( "File " + filename + " did not open." )
-        document = open( "triange.txt", "r" )
+        print("File " + filename + " did not open.")
+        document = open("triange.txt", "r")
 
     numbers = list()
     for line in document:
@@ -25,16 +28,17 @@ def processDocument(filename):
         numbers.append(int(number) for number in line.split())
 
     return numbers
-    
+
+
 def main():
-    numbers = processDocument("triangle.txt")
+    numbers = process_document("triangle.txt")
     total = 0
     maxlist = list()
     for row in numbers:
         maxlist.append(max(row))
 
     for number in maxlist:
-       total += number
+        total += number
     print(maxlist)
     print(total)
         
