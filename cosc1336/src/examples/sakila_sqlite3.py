@@ -19,13 +19,13 @@ conn.row_factory = db.Row
 cursor.execute("select * from films")
 rows = cursor.fetchall()
 for row in rows:
-    print("\n",(row[0], row[1], row[2]),end='')
+    print("\n", (row[0], row[1], row[2]), end='')
     
 cursor.execute("delete from films where title=='Annie Hall'")
 cursor.execute("select * from films")
 rows = cursor.fetchall()
 for row in rows:
-    print("\n",(row[0], row[1], row[2]),end='')
+    print("\n", (row[0], row[1], row[2]), end='')
 
 conn.close()
 #cursor = conn.cursor()
