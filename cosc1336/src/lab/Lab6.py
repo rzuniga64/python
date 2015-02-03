@@ -56,7 +56,7 @@ def hand():
     return value(card1), value(card2)
 
 
-def hitme():
+def hit_me():
     card = value(draw_card())
     print("The draw card is", card)
     return card
@@ -68,7 +68,7 @@ def the_game():
     total = card1 + card2
     if total <= 16:
         print("Hit me!")
-        total += hitme()
+        total += hit_me()
     elif total > 16 and total < 21:
         print("Don't hit me")
     elif total == 21:
