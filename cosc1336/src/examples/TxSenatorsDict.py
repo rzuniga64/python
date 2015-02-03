@@ -1,24 +1,25 @@
 
-def ProcessFile( fn ):
-    senatorFile = open( fn, "r" )
+def process_file(fn):
+    senator_file = open(fn, "r")
 
-    partyAffiliation = {}
-    for line in senatorFile:
+    party_affiliation = {}
+    for line in senator_file:
         line = line.strip()
-        words = line.split( "$" )
+        words = line.split("$")
         party = words[1]
         senator = words[0]
-        if party in partyAffiliation:               # Is there a list there?
-            nameAsIs = partyAffiliation[party]
-            nameAsIs += [ senator ]
-            partyAffiliation[party] = nameAsIs
+        if party in party_affiliation:               # Is there a list there?
+            name_as_is = party_affiliation[party]
+            name_as_is += [senator]
+            party_affiliation[party] = name_as_is
         else:
-            partyAffiliation[party] = [ senator ]
-        print( partyAffiliation )
+            party_affiliation[party] = [senator]
+        print(party_affiliation)
 
-    senatorFile.close()
+    senator_file.close()
+
 
 def main():
-    ProcessFile( "C:\\workspaces\\workspace_python\\TexasSenate\src\\TexasSenate.txt" )
+    process_file("C:\\workspaces\\workspace_python\\TexasSenate\src\\TexasSenate.txt")
 
 main()
