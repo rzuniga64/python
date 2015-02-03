@@ -35,4 +35,3 @@ print("$5 bills: ", fives, sep="")
 #Print out the  number of one dollar bills
 ones = change % 5
 print("$1 bills: ", ones, sep="")
-
