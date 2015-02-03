@@ -1,7 +1,7 @@
 import random
 
 
-def genSuit():
+def gen_suit():
     suit = random.randint(1, 4)
     if suit == 1:
         return "Clubs"
@@ -14,7 +14,7 @@ def genSuit():
     return "Whoops!"
 
 
-def genRank():
+def gen_rank():
     rank = random.randint(1, 13)
     if rank == 1:
         return "Ace"
@@ -27,14 +27,14 @@ def genRank():
     return str(rank)
 
 
-def drawCard():
-    return genRank() + " of " + genSuit()
+def draw_card():
+    return gen_rank() + " of " + gen_suit()
 
 
 def test():
     n = 0
     while n < 10:
-        print(drawCard())
+        print(draw_card())
         n += 1
 
 
@@ -50,19 +50,19 @@ def value(card):
 
 
 def hand():
-    card1 = drawCard()
-    card2 = drawCard()
+    card1 = draw_card()
+    card2 = draw_card()
     print(card1, ", ", card2, sep="")
-    return (value(card1), value(card2))
+    return value(card1), value(card2)
 
 
 def hitme():
-    card = value(drawCard())
+    card = value(draw_card())
     print("The draw card is", card)
     return card
 
 
-def theGame():
+def the_game():
     card1, card2 = hand()
     print(card1, card2)
     total = card1 + card2
@@ -79,4 +79,4 @@ def theGame():
         print("You've lost!")
     
 
-theGame()
+the_game()
