@@ -1,8 +1,10 @@
 import test_deck
 
+
 def display_hand(hand):
     for card in hand:
         print(card[0], card[1])
+
 
 def assign_values(hand):
     card_num = 0
@@ -47,11 +49,10 @@ def main():
                            (S)tay
                            (Q)uit_____
                                       :""").upper()
-        if   choice == "N":
+        if choice == "N":
             deck = test_deck.deck()
             deck.shuffle()
             hand = deck.draw_card(2)
-            hand2 = deck.draw_card(2)
             
         elif choice == "D":
             display_hand(hand)
@@ -67,12 +68,6 @@ def main():
         
         else:
             print("Incorrect menu option please try again...")
-        
-            
-            
-
-            
-
                
     deck.display_deck()
     deck.shuffle()
@@ -85,8 +80,6 @@ def main():
         val_sum += card[2]
 
     print("\n", val_sum)
-
-
 
 if __name__ == "__main__":
     main()
