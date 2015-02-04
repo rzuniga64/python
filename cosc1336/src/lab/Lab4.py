@@ -1,9 +1,10 @@
-def convertHundreds(hundreds, numeral):
+def convert_hundreds(hundreds, numeral):
     if hundreds == 1:
         numeral += "C"
     return numeral
 
-def convertTens(tens, numeral):
+
+def convert_tens(tens, numeral):
     if tens == 1:
         numeral += "X"
     elif tens == 2:
@@ -24,10 +25,11 @@ def convertTens(tens, numeral):
         numeral += "XC"
     return numeral
 
-def convertUnits(units, numeral):
+
+def convert_units(units, numeral):
     if units == 1:
         numeral += "I"
-    elif units ==2:
+    elif units == 2:
         numeral += "II"
     elif units == 3:
         numeral += "III"
@@ -40,25 +42,24 @@ def convertUnits(units, numeral):
     elif units == 7:
         numeral += "VII"
     elif units == 8:
-        numeral ++ "VIII"
+        numeral += "VIII"
     elif units == 9:
         numeral += "IX"
     return numeral
-    
+
+
 def main():
     numeral = ""
     number = int(input("Give an integer: "))
 
     #Extract the hundreds, tens, and units digit from the number.
     hundreds = number // 100
-    tens = number %100 // 10
+    tens = number % 100 // 10
     units = number % 10
     print(hundreds, tens, units)
-    numeral = convertHundreds(hundreds, numeral)
-    numeral = convertTens(tens, numeral)
-    numeral = convertUnits(units, numeral)
-    print("the number ", number, \
-          " as a Roman numeral is ", numeral, \
-       ".",  sep = "")
+    numeral = convert_hundreds(hundreds, numeral)
+    numeral = convert_tens(tens, numeral)
+    numeral = convert_units(units, numeral)
+    print("the number ", number, " as a Roman numeral is ", numeral, ".",  sep="")
 
 main()
