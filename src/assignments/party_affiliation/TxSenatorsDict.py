@@ -20,6 +20,6 @@ def process_file(fn):
 
 
 def main():
-    process_file("C:\\workspaces\\workspace_python\\TexasSenate\src\\TexasSenate.txt")
+    process_file("C:\\Users\\Roy\\git\\python\\src\\assignments\\TexasSenate.txt")
 
 main()
