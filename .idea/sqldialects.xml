@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4" />
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/assignments/sqlite3" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/access.py" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/createdb.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/finduser.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/querydb.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/sakila_sqlite3.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/terminate.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson14_accessing_databases/updatemgr.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/lesson15_database_programming" dialect="SQLite" />
+  </component>
+</project>
 
