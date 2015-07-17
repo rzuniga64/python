@@ -30,6 +30,3 @@ cursor.execute("DELETE from employee WHERE empid = ?", (empid,))
 conn.commit()
 cursor.close()
 conn.close()
-
-
-

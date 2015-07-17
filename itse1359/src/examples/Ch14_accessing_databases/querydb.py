@@ -18,6 +18,3 @@ for row in cursor.fetchall():
 
 cursor.close()
 conn.close()
-
-
-

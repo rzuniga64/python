@@ -24,5 +24,3 @@ for key in db.keys():
 
 # Close and save to disk
 db.close()
-
-
