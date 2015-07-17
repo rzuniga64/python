@@ -34,7 +34,8 @@ class StudentDB():
         self.cursor = self.conn.cursor()
         self.cursor.execute("""INSERT INTO student(fname, lname, street, city, state, zip, email, phone, school, major)
                             VALUES('%s', '%s', '%s', '%s', '%s', '%d', '%s', '%s', '%s', '%s')"""
-                            % (data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], data[9]))
+                            % (data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8], data[9])
+                            )
         self.conn.commit()
         self.cursor.execute("""SELECT * FROM student WHERE fname=? AND lname=? AND street=? AND city=?
                                AND state=? AND zip=? AND email=? AND phone=? AND school=? AND major=?""",
