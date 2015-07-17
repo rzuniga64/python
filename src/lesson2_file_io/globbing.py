@@ -3,7 +3,7 @@ import os
 
 """
     Globbing is hacker's jargon for expanding wildcards in file
-    patterns.  Python provides a function blob, in the module
+    patterns.  Python provides a function blob, in the lesson9_module
     also named glob, which implements globbing of directory
     contents.  The glob.glob function takes a glob pattern and
     returns a list of matching file names or paths, similar to
