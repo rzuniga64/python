@@ -3,7 +3,7 @@
 
 import csv
 import pyodbc
-# import sybpydb <-- lesson9_module to access a sybase database
+# import sybpydb <-- lesson09_module to access a sybase database
 
 DtEffective = '06/30/2013'
 
