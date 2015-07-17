@@ -1,0 +1,31 @@
+Kevin Eltife$Republican$1$Tyler$2004 
+Bob Deuell$Republican$2$Greenville$2003 
+Robert Nichols$Republican$3$Jacksonville$2007 
+Tommy Williams$Republican$4$The Woodlands$2003 
+Charles Schwertner$Republican$5$Georgetown$2013 
+Sylvia Garcia$Democratic$6$Houston$2013 
+Dan Patrick$Republican$7$Houston$2007 
+Ken Paxton$Republican$8$McKinney$2013 
+Kelly Hancock$Republican$9$Fort Worth$2013 
+Wendy Davis$Democratic$10$Fort Worth$2009 
+Larry Taylor$Republican$11$Friendswood$2013 
+Jane Nelson$Republican$12$Flower Mound$1993 
+Rodney Ellis$Democratic$13$Houston$1990 
+Kirk Watson$Democratic$14$Austin$2007 
+John Whitmire$Democratic$15$Houston$1983 
+John Carona$Republican$16$Dallas$1996 
+Joan Huffman$Republican$17$Southside Place$2008 
+Glenn Hegar$Republican$18$Katy$2007 
+Carlos I. Uresti$Democratic$19$San Antonio$2006 
+Juan "Chuy" Hinojosa$Democratic$20$McAllen$2002 
+Judith Zaffirini$Democratic$21$Laredo$1987 
+Brian Birdwell$Republican$22$Granbury$2010 
+Royce West$Democratic$23$Dallas$1993 
+Troy Fraser$Republican$24$Horseshoe Bay$1997 
+Donna Campbell$Republican$25$New Braunfels$2013 
+Leticia R. Van de Putte$Democratic$26$San Antonio$1999 
+Eddie Lucio, Jr.$Democratic$27$Brownsville$1991 
+Robert L. Duncan$Republican$28$Lubbock$1997 
+Jose R. Rodriguez$Democratic$29$El Paso$2011 
+Craig Estes$Republican$30$Wichita Falls$2001 
+Kel Seliger$Republican$31$Amarillo$2004
