@@ -1,8 +1,7 @@
-import Omelet as Omelet
-import Fridge as Fridge
-
-
 import sys
+
+import Fridge as Fridge
+import Omelet as Omelet
 
 
 def main():

@@ -1,5 +1,6 @@
-import gui7
 from tkinter import *
+
+import gui7
 
 
 class HelloPackage(gui7.HelloPackage):
