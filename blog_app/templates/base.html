@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}CS 3320{% endblock %}</title>
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic:latin' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+      </script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"
+          media="screen and (min-width: 48em)">
+    <link rel="stylesheet" href="/static/stylesheets/styles.css">
+</head>
+<body>
+    <div id="shell" class="pure-g">
+        <div id="control-sidebar" class="sidebar pure-u-1 pure-u-md-1-5">
+            {% if state == 'good' %} {# detect if we need to show the error message #}
+                <h1>Logged in as admin</h1>
+                <div id="buttons">
+                    <a href="/postblog" class="pure-button">Post Blog</a>
+                    <a href="/logout" class = "pure-button">Log Out</a>
+                </div>
+            {% else %}
+                <h1><a href="/login" class="pure-button">Log In</a></h1>
+            {%  endif %}
+        </div>
+        <main class="main pure-u-1 pure-u-md-4-5" role="main">
+            {%  block content %}
+                Fill me in!
+            {%  endblock %}
+        </main>
+    </div>
+</body>
+</html>

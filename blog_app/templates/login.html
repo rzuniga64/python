@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Log In{% endblock %}
+{% block content %}
+    {% if state == 'bad' %} {# detect if we need to show the error message #}
+        <p class="error">Invalid user name or password.</p>
+    {%  endif %}
+
+    <div id="login" class="pure-g">
+        <form method="POST" action="/login" class="pure-form pure-form-stacked pure u-1">
+            <fieldset>
+                <legend><strong>Log In To Enter Blog</strong></legend>
+                <label for="login-user">Username</label>
+                <input type="text" name="user" id="login-user">
+                <label for="login-password">Password</label>
+                <input type="password" name="password" id="login-password">
+                <input type="hidden" name="url" value="{{ request.args.url }}">
+                <button type="submit" class="pure-button pure-button-primary">Log In</button>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,61 @@
+html, body, label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    letter-spacing:normal;
+    background-color: #dfd4c3;
+}
+
+button {
+    letter-spacing: normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#button {
+    text-align: center;
+}
+
+form, #login {
+    width:300px;
+    margin: 0 auto;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+}
+
+.error {
+    color: red;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    padding-left: 1ex;
+}
+.sidebar h1 {
+    text-align: center;
+}
+
+@media screen and (min-width: 48em) {
+    .sidebar h1 {
+        text-align: left;
+    }
+}
+
+.pure-button-primary, .pure-button {
+    background-color: #4d1717;
+    color: white;
+}
+
+.blog-index h1 {
+    font-size: 1.1rem
+}
