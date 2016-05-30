@@ -1,0 +1,24 @@
+{% extends 'template.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <!-- Play's full title as a level one heading -->
+    <h1>{{ full_title }}</h1>
+    <p>Year Published:&nbsp{{ date }}</p>
+    <h2>List of Characters</h2>
+    {% for character in characters | sort %}
+        <ul>
+            <li><a href="/characters/{{character}}"> {{character }} </a></li>
+        </ul>
+    {% endfor %}
+
+    <h2>List of Acts</h2>
+    {% for acts in acts %}
+        {% for scenes in acts.scenes %}
+            <ul>
+                <li><a href= "/plays/{{ play}}/act/{{scenes.act}}/scene/{{scenes.scene}}">
+                /plays/{{ play}}/act/{{scenes.act}}/scene/{{scenes.scene}}</a></li>
+            </ul>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
+

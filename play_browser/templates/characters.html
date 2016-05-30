@@ -1,0 +1,12 @@
+{% extends 'template.html' %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+    <h1>Character:&nbsp;{{ character }}</h1>
+    <h2>List of Plays</h2>
+    <ul>
+        {% for play in playlist.values() | sort(attribute='date') %}
+        <li>{{ play.full_title }}&nbsp;({{ play.date }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
