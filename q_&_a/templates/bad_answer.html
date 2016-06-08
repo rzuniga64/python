@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Answer too long{% endblock %}
+{% block content %}
+  <p class="error">Answer is too long. Please make sure your answer is less than 1000 characters.</p>
+  <p><a href="/questions/{{ qid }}">Back to question</a></p>
+{% endblock %}

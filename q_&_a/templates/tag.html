@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Tag{% endblock %}
+{% block content %}
+        <h1 class="header1"> Questions tagged with: {{ tag }}</h1>
+        {% for question in questions  %}
+            <article class="question">
+              <h1><a href="/questions/{{ question.id }}">{{ question.subject }}</a></h1>
+              <h2>Asked on {{ question.date_asked }} by {{ question.creator.login }}</h2>
+              <p>{{ content[question.id] }}</p>
+            </article>
+        {%  endfor %}
+{% endblock %}
