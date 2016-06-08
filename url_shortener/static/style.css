@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-sarif, sans-serif;
+    font-size: 12pt;
+    background-color: black;
+}
+
+h1 {
+    font-family: Helvetica, sans-sarif, sans-serif;
+    font-size: 1.3rem;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: Helvetica, sans-sarif, sans-serif;
+    font-size: 1.1rem;
+    color:antiquewhite;
+}
+
+.image {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.shell {
+    max-width: 768px;
+    text-align: center;
+    color: antiquewhite;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p{
+    color: antiquewhite;
+}

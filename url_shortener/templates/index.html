@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}URL Shortener{% endblock %}
+{% block content %}
+  <div class="shell">
+  <h1>Cut the URL in twine!</h1>
+  <h2>Give me a URL!</h2> 
+      <img class="pure-img" src="/static/tyrion.jpg">
+  <form action="/shorten" method="post" class="pure-form">
+    <fieldset><br/>
+  <label style="color: black">URL<input type="text" name="url" placeholder="Input a URL"></label>
+  <button type="submit" class="pure-button pure-button-primary">Shorten!</button><br>
+    </fieldset>
+  </form>
+  </div>
+{% endblock %}
