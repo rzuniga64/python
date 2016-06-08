@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div id="waitingroom-wrapper" data-username="{{ user }}">
+      <marquee scrollamount="10"><h1>{{ user }} is <em>waiting for a matchup...</em></h1></marquee>
+      <img class="avatar" src="https://www.gravatar.com/avatar/{{ hash_tag }}">
+      <br>
+      <br>
+    <form method="POST" action="/goto-game">
+        <input id="key-input" type="hidden" name="key" value="none">
+        <input id="user-input" type="hidden" name="user" value="none">
+        <button id="join-button" type="submit" class="pure-button pure-button-primary" disabled>Join game</button>
+    </form>
+  </div>
+  <script src="/static/js/waitingroom.js"></script>
+{% endblock %}
