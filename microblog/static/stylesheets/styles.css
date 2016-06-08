@@ -1,0 +1,144 @@
+html, body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13pt;
+    letter-spacing:normal;
+    background-color: #dfd4c3;
+}
+
+button {
+    letter-spacing: normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+main {
+    margin-left: 25%;
+    padding: 1em 2em 0;
+}
+
+legend {
+    font-size: 1.2rem;
+    letter-spacing: normal;
+}
+
+#control-sidebar {
+    background: cornflowerblue none repeat scroll 0 0;
+    bottom: 0;
+    position: fixed;
+    top: 0;
+}
+
+#button, #buttons {
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#login {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#login {
+    text-align: center;
+}
+
+.header1 {
+    margin-left: 1.0em;
+}
+
+.error {
+    color: red;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    padding-left: 1ex;
+}
+
+@media screen and (min-width: 48em) {
+    .sidebar h1 {
+        text-align: center;
+    }
+}
+
+.pure-button-primary, .pure-button {
+    background-color: #4d1717;
+    color: white;
+}
+
+.side-buttons {
+    margin-bottom: 10%;
+    max-width: 100%;
+}
+
+.user-profile {
+    display: block;
+    float: left;
+    margin-right: 1ex;
+    background-color: cornflowerblue;
+    padding: 1ex;
+    width: 100%;
+    margin-bottom: 1ex;
+}
+
+.avatar {
+    display: block;
+    float: left;
+    margin-right: 1ex;
+    background-color: cornflowerblue;
+    padding: 1ex;
+}
+
+.post-avatar {
+    display: block;
+    float: left;
+    margin-right: 1ex;
+/*    padding: 1ex; */
+}
+
+.bio {
+    clear: left;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+}
+
+.post {
+    background-color: #dddddd;
+    margin: 1ex;
+    padding: 1ex;
+    width: 90%;
+}
+
+.follow-button {
+    cursor: pointer;
+}
+
+.follow-button[data-state="following"] {
+    background-color: #000;
+}
+
+.follow-button[data-state="not-following"] {
+    background-color: #4d1717;
+}
+
+button[data-state="waiting"] {
+    background-color: #444444;
+    font-style: italic;
+}
+
+img {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.author-info {
+    overflow: auto;
+}

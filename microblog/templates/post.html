@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}FollowMe{% endblock %}
+{% block content %}
+  <h1>Welcome to FollowMe!</h1>
+    <div class="pure-g">
+        <input type="hidden" name="url" value="{{ request.args.url }}">
+        <form action="/post/photo-send" method="POST" enctype="multipart/form-data"
+            class="pure-form pure-form-stacked">
+        <input type="hidden" name="_csrf_token" value="{{ session.csrf_token }}">
+            <label for="post"></label>
+                <textarea name="post" rows="10" cols="30" maxlength="256" placeholder="Whats on your mind?"></textarea>
+            <br>
+            <label for="url"></label>
+                <textarea name="url" rows="1" cols="50" placeholder="Submit a link about your post too if you have one!"></textarea>
+            <br>
+            {#  a file input lets us upload a file; accept only images #}
+                <input type="file" name="image" accept="image/*"></label>
+                {# and then a button! #}
+             <button type="submit" class="pure-button pure-button-primary">Photo upload</button>
+         </form>
+    </div>
+{% endblock %}

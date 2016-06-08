@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+    <div class="user-profile" data-followee-id="{{ user.id }}">
+        <img class="avatar" src="https://www.gravatar.com/avatar/{{ user.grav_hash }}">
+        <strong>{{ user.name }}</strong><br>
+    {% if user.location != None %}
+        {{ user.location }}
+    {% endif %}
+    <br>
+        {% if session.auth_user %}
+            <button class="widget pure-button follow-button" data-state="{{ dataState }}">{{ followText }}</button>
+        {% endif %}
+    </div>
+    <div class="bio">
+      {% if user.bio != None %}
+      {{ user.bio }}
+      {% endif %}
+    </div>
+    <div>
+        <h2>Posts:</h2>
+            {% if posts %}
+                {%  for post in posts %}
+                    <article class="post">
+                      {% if post.photo != None %}
+                        <img class="photo" id="posted-photo" src="{{ url_for('photo_sender', photo_id=post.id) }}">
+                      {% endif %}
+                      {{ marked_posts[post.id] }}
+                      {% if post.url != '' %}
+                         <br><a href="{{ post.url }}">{{ post.url }}</a><br>
+                      {% endif %}
+                        {{ post.timestamp }}</article>
+                {% endfor %}
+            {%  endif %}
+    </div>
+    <script type="application/javascript" src="/static/follow.js"></script>
+{% endblock %}

@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d90bb-e50c-4ade-b0d4-46dccbea1437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/docs/erd.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/static/images/mqdefault.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/init.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/project3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/static/stylesheets/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/static/votes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/bad_answer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/question.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/question_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/templates/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q_&amp;_a/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/images/mqdefault.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/init.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/myapp.wsgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/project4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/follow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/js/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/stylesheets/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/stylesheets/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/edit_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/post.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -43,6 +43,7 @@
     <SUITE FILE_PATH="coverage/python$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1465364136690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
     <SUITE FILE_PATH="coverage/python$project3.coverage" NAME="project3 Coverage Results" MODIFIED="1465364531404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
     <SUITE FILE_PATH="coverage/python$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1465363964327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_browser" />
+    <SUITE FILE_PATH="coverage/python$project4.coverage" NAME="project4 Coverage Results" MODIFIED="1465365668839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/microblog" />
     <SUITE FILE_PATH="coverage/python$cs3320p1.coverage" NAME="cs3320p1 Coverage Results" MODIFIED="1465363969243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_browser" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -53,7 +54,32 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microblog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microblog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +104,8 @@
         <option value="$PROJECT_DIR$/play_browser/manage.py" />
         <option value="$PROJECT_DIR$/blog_app/static/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/q_&amp;_a/settings.py" />
+        <option value="$PROJECT_DIR$/microblog/settings.py" />
+        <option value="$PROJECT_DIR$/microblog/views.py" />
       </list>
     </option>
   </component>
@@ -121,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -142,7 +171,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,37 +183,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\User\Owner\git\python\udemy" />
-      <recent name="C:\Users\Roy\git\python\src\lesson21_django_web_app_framework" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\User\Owner\git\python\microblog" />
       <recent name="C:\User\Owner\git\python\q_&amp;_a" />
       <recent name="C:\User\Owner\git\python\url_shortener" />
       <recent name="C:\User\Owner\git\python\book_browser" />
       <recent name="C:\User\Owner\git\python\blog_app" />
-      <recent name="C:\User\Owner\git\python\play_browser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\User\Owner\git\python\udemy" />
+      <recent name="C:\Users\Roy\git\python\src\lesson21_django_web_app_framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.project3">
-    <configuration default="false" name="cs3320p1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_browser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/book_browser/cs3320p1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.project4">
     <configuration default="false" name="manage (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,6 +264,24 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q_&amp;_a/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="project4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/microblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/microblog/project4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -476,19 +504,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.cs3320p1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.manage (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.project2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.project3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="0" class="java.lang.String" itemvalue="Python.manage (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.project2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.project3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.project4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.project3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="2" class="java.lang.String" itemvalue="Python.project2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.manage (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.cs3320p1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.project4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.project3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="3" class="java.lang.String" itemvalue="Python.project2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.manage (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -555,14 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1465364118854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add q &amp; a app - project 3&#10;">
+      <created>1465364599293</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1465364599293</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="57" width="1167" height="782" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5483288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20144534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -584,7 +619,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -605,18 +640,45 @@
     <MESSAGE value="add play browser app&#10;" />
     <MESSAGE value="add book browser app - project 1&#10;" />
     <MESSAGE value="add url shortener app - project 2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add url shortener app - project 2&#10;" />
+    <MESSAGE value="add q &amp; a app - project 3&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add q &amp; a app - project 3&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/myapp.wsgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/url_shortener/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,7 +855,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/static/js/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/myapp.wsgi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
