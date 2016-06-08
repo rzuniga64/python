@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %} {{ author.name }} {% endblock %}
+{% block content %}
+    <div class="shell">
+    <h1>{{ author.name }} </h1>
+        <h4>Born: {{ author.birth_date }} - Died: {{ author.death_date }}</h4>
+        <h3>Bio:</h3>
+        <p>{% autoescape off %}
+        {{ author.bio.value|escape|replace("\r\n\r\n", "<br>") }}
+        {{ author.bio|escape|replace("\r\n\r\n", "<br>") }}
+        {% endautoescape %}</p>
+
+    <h3> Books by {{ author.name }}   </h3>
+        <ul>
+            {% for book in books|sort(attribute = 'title') %}
+                {% for book_author in book.authors %}
+                    {% if book_author == author.id %}
+                      <ul> <a href = '/books/{{ book.id }}/'> {{ book.title }}</a></ul>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+        </li>
+    </div>
+{% endblock %}

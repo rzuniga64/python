@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{%  block title %}{{ book.title }}{% endblock %}
+{% block content %}
+    <div class="shell">
+    <div class="overlay">I'm the overlay!</div>
+    <div class="overlay-box">
+      <p>I'm in the overlay!</p>
+      <button id="overlay-button">Hide overlay</button>
+    </div>
+    <h1>{{ book.title }}</h1>
+    {% if cover_id != None %}
+    <p><img src="http://covers.openlibrary.org/b/id/{{ cover_id }}-M.jpg"></p>
+    {% endif %}
+    <ul>
+        <li>Author(s):<br>
+        <ul>
+            {% for author in book.authors %}
+                <li><a href="/authors/{{ author }}">{{ authors[author].name }}</a></li>
+            {% endfor %}
+        </ul>
+        </li>
+        <li>Subject(s):<br>
+        <ul>
+            {% for subject in book.subjects %}
+            <li>{{ subject }}</li>
+            {% endfor %}
+        </ul>
+        </li>
+        <li>Editions:<br>
+            <ul>
+                {% for edition in book.editions|sort(attribute='publish_date') %}
+                    <li><a href="editions/{{ edition.id }}">{{ edition.publish_date }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+    <button id="show-overlay">Show overlay</button>
+    </div>
+  <script src="/static/book.js"></script>
+{% endblock %}

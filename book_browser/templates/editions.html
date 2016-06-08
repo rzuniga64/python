@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{%  block title %} {{ edition.title }}{% endblock %}
+{% block content %}
+<div class="shell">
+    <h1>{{ edition.title }}</h1>
+    <h2>{{ edition.subtitle }}</h2>
+    <li>Author(s):<br>
+        <ul>
+            {% for author in edition.authors %}
+                <li><a href="/authors/{{ author }}">{{ authors[author].name }}</a></li>
+            {% endfor %}
+        </ul>
+    </li>
+    <li>Subject(s):<br>
+        <ul>
+            {% for subject in edition.subjects %}
+            <li>{{ subject }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% for class_item in edition.lc_class %}
+        <li>Library of Congress Call Number(s): {{ class_item }}</li>
+    {% endfor %}
+    {% if edition.isbn_10 %}
+    <li>ISBN 10 #:
+        {% for isbn_10_val in edition.isbn_10 %}
+            {{ isbn_10_val }}
+        {% endfor %}
+    </li>
+    {% endif %}
+    {% if edition.isbn_13 %}
+        <li>ISBN 13 #:
+            {% for isbn_13_val in edition.isbn_13 %}
+                {{ isbn_13_val }}
+            {% endfor %}
+        </li>
+    {% endif %}
+    <li>Publishers:
+        {% for publisher in edition.publishers %}
+            {{ publisher }}
+        {% endfor %}
+    </li>
+    <br>
+    <p>Back to <a href="/books/{{ book.id }}/">{{ book.title }}</a> catalogue</p>
+</div>
+{% endblock %}
