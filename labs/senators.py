@@ -4,7 +4,7 @@
 
 def process_document(filename):
     try:
-        document = open("\\\RGC-FP0\\StudentsHome\\3051102\workspace\\python_workspace\\hw7\\src\\senators.txt", "r")
+        document = open("senators.txt", "r")
     except:
         print("File " + filename + " did not open.")
         document = open("senators.txt", "r")
