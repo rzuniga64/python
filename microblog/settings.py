@@ -1,3 +1,0 @@
-SECRET_KEY = 'zujQkTANHh9hkkMhPrD7XdyQGC6DhD2n'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///models.db'
-ADMIN_PASSWORD = 'aggies92'

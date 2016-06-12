@@ -2,28 +2,208 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930d90bb-e50c-4ade-b0d4-46dccbea1437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/images/mqdefault.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/init.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/myapp.wsgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/project4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/follow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/js/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/stylesheets/dropzone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/static/stylesheets/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/edit_profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/templates/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microblog/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/cs3320a0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/blog.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/cs3320a2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/static/stylesheets/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/blog_entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/cs3320p1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/data/authors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/data/books.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/static/Elizabeth_I_when_a_Princess.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/static/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/author.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/authors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/books.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/editions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/chat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/cs3320a3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/routes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/chat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/images/mqdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/stylesheets/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/chat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/join.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/gameengine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/myapp.wsgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/project5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/routes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/js/game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/js/waitingroom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/stylesheets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/gameroom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/waitingroom.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/myapp.wsgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/project4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/follow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/images/mqdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/js/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/stylesheets/dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/stylesheets/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/edit_profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/cs3320a1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/12night.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/12night.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/allswell.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/antonycleo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/asyoulikeit.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/comedyerrors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/coriolanus.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/cymbeline.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/hamlet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry4p1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry4p2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/juliuscaesar.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/kingjohn.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/kinglear.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/loveslabours.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/macbeth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/measure.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/merchantvenice.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/merrywives.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/midsummer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/muchado.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/othello.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/pericles.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/richard2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/richard3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/romeojuliet.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/tamingshrew.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/tempest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/timonathens.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/titus.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/troilus.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/twogents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/winterstale.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/characters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/play.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/scenes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/docs/erd.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/init.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/project3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/images/mqdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/stylesheets/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/votes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/bad_answer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/question.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/question_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/project2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/mqdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/tyrion.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/preview.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/__init__.py" afterPath="$PROJECT_DIR$/web_apps/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/__init__.py" afterPath="$PROJECT_DIR$/assignments/years_of_service/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/card_game.py" afterPath="$PROJECT_DIR$/assignments/card_game/card_game.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/test_deck.py" afterPath="$PROJECT_DIR$/assignments/card_game/test_deck.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/__init__.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/card.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/card.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/deck.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/deck.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/__init__.py" afterPath="$PROJECT_DIR$/assignments/senators/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/encoder.docx" afterPath="$PROJECT_DIR$/assignments/encoder/encoder.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/encoder.py" afterPath="$PROJECT_DIR$/assignments/encoder/encoder.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/message.txt" afterPath="$PROJECT_DIR$/assignments/encoder/message.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/113thCongress.txt" afterPath="$PROJECT_DIR$/assignments/final_exam/113thCongress.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/__init__.py" afterPath="$PROJECT_DIR$/assignments/party_affiliation/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/congressman.txt" afterPath="$PROJECT_DIR$/assignments/final_exam/congressman.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/exam.py" afterPath="$PROJECT_DIR$/assignments/final_exam/exam.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/LabelEntry.py" afterPath="$PROJECT_DIR$/assignments/final_project/LabelEntry.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/StudentContainer.py" afterPath="$PROJECT_DIR$/assignments/final_project/StudentContainer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/StudentDB.py" afterPath="$PROJECT_DIR$/assignments/final_project/StudentDB.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/__init__.py" afterPath="$PROJECT_DIR$/assignments/grains_of_rice/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/grains_of_rice/__init__.py" afterPath="$PROJECT_DIR$/assignments/final_project/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/grains_of_rice/grains_of_rice.py" afterPath="$PROJECT_DIR$/assignments/grains_of_rice/grains_of_rice.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/TexasSenate.txt" afterPath="$PROJECT_DIR$/assignments/party_affiliation/TexasSenate.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/TxSenatorsDict.py" afterPath="$PROJECT_DIR$/assignments/party_affiliation/TxSenatorsDict.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/__init__.py" afterPath="$PROJECT_DIR$/assignments/final_exam/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/__init__.py" afterPath="$PROJECT_DIR$/assignments/encoder/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators.py" afterPath="$PROJECT_DIR$/assignments/senators/senators.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators.txt" afterPath="$PROJECT_DIR$/assignments/senators/senators.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators2.py" afterPath="$PROJECT_DIR$/assignments/senators/senators2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators_deitch.py" afterPath="$PROJECT_DIR$/assignments/senators/senators_deitch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/__init__.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/senators.db" afterPath="$PROJECT_DIR$/assignments/sqlite3/senators.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/senators.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/senators.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/student_survey_lisa.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/student_survey_lisa.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/years_of_service/__init__.py" afterPath="$PROJECT_DIR$/assignments/card_game/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/years_of_service/senatorService.py" afterPath="$PROJECT_DIR$/assignments/years_of_service/senatorService.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/url_shortener/__init__.py" afterPath="$PROJECT_DIR$/assignments/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -39,6 +219,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$project2.coverage" NAME="project2 Coverage Results" MODIFIED="1465364212201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
+    <SUITE FILE_PATH="coverage/python$project5.coverage" NAME="project5 Coverage Results" MODIFIED="1465367602205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect4" />
     <SUITE FILE_PATH="coverage/python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1465364350711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
     <SUITE FILE_PATH="coverage/python$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1465364136690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
     <SUITE FILE_PATH="coverage/python$project3.coverage" NAME="project3 Coverage Results" MODIFIED="1465364531404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
@@ -54,32 +235,7 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microblog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microblog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,6 +262,7 @@
         <option value="$PROJECT_DIR$/q_&amp;_a/settings.py" />
         <option value="$PROJECT_DIR$/microblog/settings.py" />
         <option value="$PROJECT_DIR$/microblog/views.py" />
+        <option value="$PROJECT_DIR$/connect4/settings.py" />
       </list>
     </option>
   </component>
@@ -116,8 +273,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="57" />
+    <option name="x" value="80" />
+    <option name="y" value="30" />
     <option name="width" value="1167" />
     <option name="height" value="782" />
   </component>
@@ -149,8 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,8 +324,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,36 +369,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\User\Owner\git\python\connect4" />
       <recent name="C:\User\Owner\git\python\microblog" />
       <recent name="C:\User\Owner\git\python\q_&amp;_a" />
       <recent name="C:\User\Owner\git\python\url_shortener" />
       <recent name="C:\User\Owner\git\python\book_browser" />
-      <recent name="C:\User\Owner\git\python\blog_app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\User\Owner\git\python\web_apps" />
+      <recent name="C:\User\Owner\git\python" />
       <recent name="C:\User\Owner\git\python\udemy" />
       <recent name="C:\Users\Roy\git\python\src\lesson21_django_web_app_framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.project4">
-    <configuration default="false" name="manage (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/url_shortener" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/url_shortener/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.project5">
     <configuration default="false" name="project2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,6 +451,24 @@
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/microblog/project4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="project5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect4/project5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -504,19 +691,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.manage (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.project2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.project3" />
-      <item index="3" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="4" class="java.lang.String" itemvalue="Python.project4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.project2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.project3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="3" class="java.lang.String" itemvalue="Python.project4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.project5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.project4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.project3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="3" class="java.lang.String" itemvalue="Python.project2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.manage (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.project5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.project4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.project3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.manage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.project2" />
       </list>
     </recent_temporary>
   </component>
@@ -590,24 +777,36 @@
       <option name="project" value="LOCAL" />
       <updated>1465364599293</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add microblob app - project 4&#10;">
+      <created>1465365736565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1465365736565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add connect4 app - project 5&#10;">
+      <created>1465367719127</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1465367719127</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="57" width="1167" height="782" extended-state="0" />
+    <frame x="80" y="30" width="1167" height="782" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20144534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46612465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38683787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,10 +816,12 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38683787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -641,83 +842,79 @@
     <MESSAGE value="add book browser app - project 1&#10;" />
     <MESSAGE value="add url shortener app - project 2&#10;" />
     <MESSAGE value="add q &amp; a app - project 3&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add q &amp; a app - project 3&#10;" />
+    <MESSAGE value="add microblob app - project 4&#10;" />
+    <MESSAGE value="add connect4 app - project 5&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add connect4 app - project 5&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microblog/views.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/models.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/myapp.wsgi">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/myapp.wsgi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/init.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/project3.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/project3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/models.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/views.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/settings.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/static/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/static/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -756,146 +953,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play_browser/README.txt">
+    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play_browser/cs3320a1.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/cs3320a1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic_flask_app/manage.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/basic_flask_app/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play_browser/manage.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_browser/data/books.json">
+    <entry file="file://$PROJECT_DIR$/web_apps/book_browser/data/books.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/static/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/static/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/static/style.css">
+    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_app/settings.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/settings.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/views.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/models.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/project3.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/project3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q_&amp;_a/init.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/init.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_shortener/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/static/js/dropzone.js">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/static/js/dropzone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/settings.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/myapp.wsgi">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/myapp.wsgi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/models.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microblog/views.py">
+    <entry file="file://$PROJECT_DIR$/web_apps/microblog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_apps/connect4/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_apps/connect4/static/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,0 @@
-SECRET_KEY = 'zujQkTANHh9hkkMhPrD7XdyQGC6DhD2n'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///blog.db'
-ADMIN_PASSWORD = 'aggies92'

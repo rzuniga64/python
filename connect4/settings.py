@@ -1,3 +1,0 @@
-SECRET_KEY = 'zujQkTANHh9hkkMhPrD7XdyQGC6DhD2n'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///connect4.db'
-ADMIN_PASSWORD = 'aggies92'

@@ -1,1 +1,0 @@
-I didn't use any external resources.  This is 100% my own code.
