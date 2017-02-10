@@ -25,8 +25,10 @@ def print_file_list(folder, file_list):
     for file in file_list:
         print("%s" % file)
 
+
 def main():
-    infilename = "program_6_4.cpp"
+    infilename = "C:\\Users\\Owner\\PycharmProjects\\python\\udemy\\" \
+                 "lesson01_file_io\\program_6_4.cpp"
     outfilename = "_program_6_4.cpp";
 
     try:

@@ -19,20 +19,19 @@ def make_text_file():
     text""")
     a.close()
 
-    # Read a line from the file using the readline method.
-    # The first time you call this method on a file object,
-    # it will return the first line of text in the file.
+    # Read a line from the file using the readline method. The first time you
+    # call this method on a file object, it will return the first line of text
+    # in the file.
     a = open('file1.txt', 'r')
     line = a.readline()
     print(line)
 
-    # Tou can read the file all at once with the read method.
-    # This method return any text in the file that you
-    # haven't read yet as one long string.
+    # You can read the file all at once with the read method. This method return
+    # any text in the file that you haven't read yet as one long string.
     text = a.read()
     print(text)
-    # When you are done reading the file, close the file by
-    # deleting the file object and closing the file
+    # When you are done reading the file, close the file by deleting the file
+    # object and closing the file
     a.close()
 
 

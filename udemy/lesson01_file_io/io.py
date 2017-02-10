@@ -1,6 +1,8 @@
 import os
 import shutil
-    # Purpose: This script prints the list of files and/or folders that exist in a folder.
+
+# Purpose: This script prints the list of files and/or folders that exist
+# in a folder.
 
 
 def get_file_list(folder):
@@ -44,14 +46,15 @@ def main():
     out_file2.close()
     out_file3.close()
 
-    # Call the 'getFileList' function in main passing in the path of the folder you
-    # created in Part 1.
+    # Call the 'getFileList' function in main passing in the path of the folder
+    # you created in Part 1.
     
-    # Call the 'printFileList' function in main passing in the path of the folder
-    # as the first argument and the file list returned from 'getFileList' as the second argument.
+    # Call the 'printFileList' function in main passing in the path of the
+    # folder as the first argument and the file list returned from 'getFileList'
+    # as the second argument.
     print_file_list(folder, get_file_list(folder))
     
-    #Remove the non-empty directory that was created
+    # Remove the non-empty directory that was created
     shutil.rmtree(folder)
     
 main()
