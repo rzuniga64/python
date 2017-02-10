@@ -8,7 +8,8 @@ class Student:
         self.id = id
 
     def __str__(self):
-        return "Name: " + self.name + "\n" + "Id: " + self.id + "\n" + \
+        return "Name: " + self.name + "\n" + \
+               "Id: " + self.id + "\n" + \
                "Grades: " + self.show_grades()
 
     def add_grade(self, grade):
