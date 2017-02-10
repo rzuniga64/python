@@ -1,3 +1,8 @@
+"""
+    Importing this way we can have other names in our program we can use that
+    have the same name as a function from newton. We have to qualify the
+    name with the module name if we use a function from the module.
+"""
 import newton
 
 
