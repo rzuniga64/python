@@ -1,4 +1,5 @@
-# predicate function or boolean function
+# predicate function or boolean function returns a boolean value.
+# Usually used to categorize data.
 
 
 def is_vowel(letter):
@@ -15,7 +16,7 @@ def num_vowels(string):
     count = 0
     for i in range(len(string)):
         if is_vowel(string[i]):
-           count += 1
+            count += 1
     return count
 
 print("Enter a string: ")
