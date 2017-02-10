@@ -24,13 +24,14 @@ def total(x, y):
 
 
 def main():
-    # map
+    # map takes a function and applies it to every element of a sequence
     numbers = [1, 2, 3]
     print(numbers)
     numberssq = list(map(square, numbers))
     print(numberssq)
 
-    # filter
+    # filter will take a boolean function and return elements of the sequence
+    # that meet that criteria.
     numbers = list(range(1, 11))
     print(numbers)
     evens = list(filter(even, numbers))
