@@ -12,8 +12,10 @@ class Car:
     setyear(model) - sets the year the car was made
     """
     def __init__(self, make=" ", model=" ", year=0):
-        if not isinstance(make, str) or not isinstance(model, str) or not isinstance(year, int):
-            raise TypeError('Car requires make and model as string and year as integer but was given %10s %10s %4s'
+        if not isinstance(make, str) or not isinstance(model, str) \
+                or not isinstance(year, int):
+            raise TypeError('Car requires make and model as string and year as '
+                            'integer but was given %10s %10s %4s'
                             % (type(make), type(model), type(year)))
 
         self.__make = make
@@ -41,15 +43,20 @@ class Car:
 
 def main():
 
-    #instantiate an object of the car class and set attributes using default constructor
+    # instantiate an object of the car class and set attributes using default
+    # constructor
     jetta = Car("Volkswagen", "Jetta", 2012)
-    print("Car's make: %10s Model: %10s Year: %4d" % (jetta.getmake(), jetta.getmodel(), jetta.getyear()))
+    print("Car's make: %10s Model: %10s Year: %4d" % (jetta.getmake(),
+                                                      jetta.getmodel(),
+                                                      jetta.getyear()))
 
-    #instantiate an object of the car class and set attributes using class methods
+    # instantiate object of the car class and set attributes using class methods
     prius = Car()
     prius.setmake("Toyota")
     prius.setmodel("Prius")
     prius.setyear(2010)
-    print("Car's make: %10s Model: %10s Year: %4d" % (prius.getmake(), prius.getmodel(), prius.getyear()))
+    print("Car's make: %10s Model: %10s Year: %4d" % (prius.getmake(),
+                                                      prius.getmodel(),
+                                                      prius.getyear()))
 
 main()

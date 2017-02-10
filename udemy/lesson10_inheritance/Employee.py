@@ -1,4 +1,5 @@
 class Employee:
+
     def __init__(self, name, pay_rate):
         self.name = name
         self.pay_rate = pay_rate
@@ -11,6 +12,7 @@ class Employee:
 
 
 class Manager(Employee):
+
     def __init__(self, name, pay_rate, is_salaried):
         Employee.__init__(self, name, pay_rate)
         self.salaried = is_salaried

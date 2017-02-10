@@ -16,11 +16,13 @@ def main():
     o.mix()
     o.make()
     
-    # This isn't any easier or harder to use than making a single omelet was in Ch 5.
-    # However, the benefit of using objects becomes obvious when you have many things
-    # to work with at the same time - for instance, many omelets being made at the same time."""
+    # This isn't any easier or harder to use than making a single omelet was in
+    # Ch 5. However, the benefit of using objects becomes obvious when you have
+    # many things to work with at the same time - for instance, many omelets
+    # being made at the same time."""
     
-    f = Fridge.Fridge({'cheese': 5, 'milk': 4, 'eggs': 12, 'mushroom': 6, 'onion': 6})
+    f = Fridge.Fridge({'cheese': 5, 'milk': 4, 'eggs': 12, 'mushroom': 6,
+                       'onion': 6})
     o = Omelet.Omelet('cheese')
     m = Omelet.Omelet('mushroom')
     c = Omelet.Omelet('onion')

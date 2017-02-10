@@ -1,4 +1,5 @@
 class Account:
+
     def __init__(self, acct_number, balance):
         self.acct_number = acct_number
         self.balance = balance
@@ -12,6 +13,7 @@ class Account:
 
 
 class Checking(Account):
+
     def __init__(self, acct_number, balance, fee):
         Account.__init__(self, acct_number, balance)
         self.fee = fee
@@ -32,6 +34,7 @@ class Checking(Account):
 
 
 class Savings(Account):
+
     def __init__(self, acct_number, balance):
         Account.__init__(self, acct_number, balance)
 
@@ -44,7 +47,7 @@ class Savings(Account):
         if amount > self.balance:
             print("Insufficient funds.")
         else:
-            self.balance = self.balance - amount
+            self.balance -= amount
 
 ca = Checking("123", 500, .50)
 print(ca)
@@ -58,6 +61,8 @@ sa.withdraw(250)
 print(sa)
 sa.deposit(125)
 print(sa)
+# Python understands the type of object and display the right information based
+# on that.
 accounts = [ca, sa]
 print("Displaying all accounts: ")
 for i in range(0, len(accounts)):
