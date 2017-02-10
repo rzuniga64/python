@@ -1,5 +1,4 @@
-class Car:
-    """
+"""
     Purpose: This class implements a car where the make, model and year
     can be added or modified.
 
@@ -10,7 +9,11 @@ class Car:
     setmake(make) - sets the make of the car
     setmodel(model) - sets the model of the car
     setyear(model) - sets the year the car was made
-    """
+"""
+
+
+class Car:
+
     def __init__(self, make=" ", model=" ", year=0):
         if not isinstance(make, str) or not isinstance(model, str) \
                 or not isinstance(year, int):
