@@ -51,7 +51,6 @@ def main():
     infile.close()
     outfile.close()
 
-
     if os.path.isfile(infilename):
         os.remove(infilename)
         os.replace(outfilename, infilename)
