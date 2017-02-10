@@ -28,7 +28,7 @@ def print_file_list(folder, file_list):
 
 def main():
     infilename = "C:\\Users\\Owner\\PycharmProjects\\python\\udemy\\" \
-                 "lesson01_file_io\\program_6_4.cpp"
+                 "lesson01_file_io\\docs\\program_6_4.cpp"
     outfilename = "_program_6_4.cpp";
 
     try:
