@@ -9,8 +9,10 @@ class Omelet:
     cook() - cooks the omelet 
     """
 
+    """
+    This initializes the Omelet class to default to a cheese omelet.
+    """
     def __init__(self, kind='cheese'):
-        """This initializes the Omelet class to default to a cheese omelet."""
         self.cooked = True
         self.mixed = True
         self.from_fridge = dict()
@@ -18,9 +20,11 @@ class Omelet:
         self.set_kind(kind)
         return
 
+    """
+    Internal method to be called on by a fridge or other objects that need to
+    act on ingredients
+    """
     def __ingredients__(self):
-        """Internal method to be called on by a fridge or other objects
-        that need to act on ingredients"""
         return self.needed_ingredients
 
     def get_kind(self):
@@ -54,7 +58,8 @@ class Omelet:
 
     def mix(self):
         for ingredient in self.from_fridge.keys():
-            print('Mixing %d %s for the %s omelet' % (self.from_fridge[ingredient], ingredient, self.kind))
+            print('Mixing %d %s for the %s omelet' %
+                  (self.from_fridge[ingredient], ingredient, self.kind))
         self.mixed = True
 
     def make(self):
