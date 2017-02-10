@@ -1,4 +1,6 @@
-grade = 99
+print("Enter a numeric grade:")
+grade = int(input())
+
 if grade >= 90:
     letterGrade = 'A'
 elif grade >= 80:
@@ -7,6 +9,10 @@ elif grade >= 70:
     letterGrade = 'C'
 elif grade >= 60:
     letterGrade = 'D'
-else:
+elif grade <= 59:
     letterGrade = 'F'
-print(letterGrade)
+else:
+    print("Did not recognize input")
+print("Your letter grade is " + letterGrade)
+
+
