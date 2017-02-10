@@ -20,7 +20,7 @@ def process_document(filename):
         document = open(filename, "r")
     except:
         print("File " + filename + " did not open.")
-        document = open("triange.txt", "r")
+        document = open("C:\\Users\\Owner\\PycharmProjects\\python\\udemy\\lesson01_file_io\\docs\\triangle.txt", "r")
 
     numbers = list()
     for line in document:
