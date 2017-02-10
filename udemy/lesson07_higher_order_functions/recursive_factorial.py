@@ -7,5 +7,6 @@ def fact(num):
         return 1
     else:
         return num * fact(num-1)
+
 number = 10
 print(str(number) + "! = " + str(fact(10)))
