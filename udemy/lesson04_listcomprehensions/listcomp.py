@@ -15,14 +15,6 @@ print(V)
 print(M)
 print()
 
-file = open('grades.txt', 'r')
-orig_grades = [int(grade) for grade in open('grades.txt')]
-print("Original grades:", orig_grades, end='')
-print()
-grades = [grade + 5 for grade in orig_grades]
-print("Curved grades:", grades)
-print()
-
 sent = "now is the time for all good people to come to the aid of their party"
 words = sent.split(' ')
 wlen = [(word, len(word)) for word in words]
