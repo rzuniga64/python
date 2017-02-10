@@ -10,6 +10,7 @@ HOURLYRATE = 45         # hourly rate
 COSTOFPAINTTUBE = 10    # cost of 1 tube of paint
 INCHESSQUARED = 512     # canvas size used to determine cost
 
+
 def canvasSizeLessThan512(sizeOfCanvas):
     hoursLaborPerSquareInch = 24/64
     numberOfTubesPerSquareInch = 1/64
@@ -17,12 +18,14 @@ def canvasSizeLessThan512(sizeOfCanvas):
     materialCost = sizeOfCanvas * numberOfTubesPerSquareInch * COSTOFPAINTTUBE
     return laborCost,materialCost
 
+
 def canvasSizeGreaterThanOrEqualTo512(sizeOfCanvas):
     hoursLaborPerSquareInch = 1000/512
     numberOfTubesPerSquareInch = 8/512
     laborCost = sizeOfCanvas * hoursLaborPerSquareInch * HOURLYRATE
     materialCost = sizeOfCanvas * numberOfTubesPerSquareInch * COSTOFPAINTTUBE
     return laborCost,materialCost
+
 
 def main():
     sizeOfCanvas = int(input("Enter size of canvas "))
