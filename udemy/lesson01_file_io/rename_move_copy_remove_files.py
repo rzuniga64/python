@@ -3,7 +3,7 @@ import shutil
 
 
 """
-    Purpose: Keep over versions of a file around.  Often older
+    Purpose: Keep other versions of a file around.  Often older
     versions of a file are named with a numerical suffix - for 
     instance, web.log.1, web.log.2 ad so on - in a larger number
     indicates an older version.  To make room for a new version of

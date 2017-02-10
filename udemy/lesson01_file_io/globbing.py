@@ -15,10 +15,10 @@ def main():
     print(glob.glob(r"C:\Program Files\M*"))
     
     # Globbing is a handy way of selecting a group of similar files
-    # fora file operation.  For instance, deleting all backup files 
-    # with the extension .bak in a directory.
+    # for a file operation.  For instance, deleting all backup files
+    # with the extenion .bak in a directory.
     
-    # Globbins is more powerful than os.listdir because you can
+    # Globbing is more powerful than os.listdir because you can
     # specify wildcards in directory and subdirectory names. 
     glob.glob("*\\*.txt")
     for path in glob.glob(r"C:\source\*.bak"):

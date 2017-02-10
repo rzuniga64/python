@@ -41,9 +41,8 @@ def print_tree(dir_path):
 def print_dir_info(dir_path):
     for name in os.listdir(dir_path):
         full_path = os.path.join(dir_path, name)
-        file_size = os.getsize(full_path)
         mod_time = time.ctime(os.path.getmtime(full_path))
-        print("%%-32s: %8d bytes, modified %s" % (name, file_size, mod_time))
+        print("%-32s: modified %s" % (name, mod_time))
 
 
 def main():
@@ -77,30 +76,31 @@ def main():
 
     # If you want to know whether a path actually does exist, use
     # os.path.exists
-    path_exists = os.path.exists("C:\\Users\\Roy\\PycharmProjects\\python")
+    path_exists = os.path.exists("C:\\Users\\Owner\\PycharmProjects\\python")
 
     # Get a list of entries in a directory
-    dir = os.listdir("C:\\Users\\Roy\\PycharmProjects\\python")
+    dir = os.listdir("C:\\Users\\Owner\\PycharmProjects\\python")
 
-    print_dir("C:\\Users\\Roy\\PycharmProjects\\python")
+    print_dir("C:\\Users\\Owner\\PycharmProjects\\python")
 
     # This produces a case-sensitive alphabetical sort
-    sorted_list = sorted(os.listdir("C:\\Users\\Roy\\PycharmProjects\\python"))
+    sorted_list = sorted(os.listdir("C:\\Users\\Owner\\PycharmProjects\\python"))
 
     # Determine if a path refers to a file using os.path.isfile
-    is_path = os.path.isfile("C:\\Users\\Roy\\PycharmProjects\\python\\oracle-driver-license.txt")
+    is_path = os.path.isfile(
+        "C:\\Users\\Owner\\PycharmProjects\\python\\oracle-driver-license.txt")
 
     # Determine if a path refers to a directory using os.path.isdir
-    is_dir = os.path.isdir("C:\\Users\\Roy\\PycharmProjects\\python")
+    is_dir = os.path.isdir("C:\\Users\\Owner\\PycharmProjects\\python")
 
     # print out the contents of directory
-    print_tree("C:\\Users\\Roy\\PycharmProjects\\python")
+    print_tree("C:\\Users\\Owner\\PycharmProjects\\python")
 
     # Output when your Python directory was last modified
-    mod_time = os.path.getmtime("C:\Python33")
+    mod_time = os.path.getmtime("C:\\Python36-32")
     print(time.ctime(mod_time))
 
-    print_dir_info("C:\Python33")
+    print_dir_info("C:\\Python36-32")
 
 
 main()
