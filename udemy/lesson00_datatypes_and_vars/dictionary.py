@@ -1,8 +1,8 @@
 # Dictionary is an unordered collection of key-value pairs.
-# It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data.
-# We must know the key to retrieve the value.
-# In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value.
-# Key and value can be of any type.
+# It is generally used when we have a huge amount of data. Dictionaries are
+# optimized for retrieving data. We must know the key to retrieve the value.
+# In Python, dictionaries are defined within braces {} with each item being a
+# pair in the form key:value. Key and value can be of any type.
 
 empty = {}  # empty dictionary
 
@@ -20,7 +20,8 @@ print("d['key'] = ", d['key'])
 # Generates error
 # print("d[2] = ", d[2])
 
-grades = {'Raymond': 92, 'Cynthia': 83, 'Terrill': 64, 'Jennifer': 75, 'Clayton': 88, 'David': 91, 'Bryan': 100}
+grades = {'Raymond': 92, 'Cynthia': 83, 'Terrill': 64, 'Jennifer': 75,
+          'Clayton': 88, 'David': 91, 'Bryan': 100}
 print(grades)
 print("keys = ", grades.keys())
 print("values = ", grades.values())
