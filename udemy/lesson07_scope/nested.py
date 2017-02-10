@@ -1,9 +1,16 @@
+"""
+    scope
+    nested scope
+    Define a function within a function the inner function has access to the
+    variables of the outer function.
+"""
 import math
 
+
 def hypotenuse(s1, s2):
-   def square(num):
-      return num * num
-   return math.sqrt(square(s1) + square(s2))
+    def square(num):
+        return num * num
+    return math.sqrt(square(s1) + square(s2))
 
 print("Enter the length of side 1: ")
 side1 = int(input())

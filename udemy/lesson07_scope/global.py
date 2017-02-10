@@ -1,9 +1,14 @@
-# scope
-# global / local
+"""
+    scope
+    global / local
+    Once a variable is declared in the main program then its visibility is
+    throughout the program. We can access the variable in a function.
+"""
 
-def getNumber():
-   print(number)
+
+def get_number():
+    print(number)
 
 number = 1
 print(number)
-getNumber()
+get_number()
