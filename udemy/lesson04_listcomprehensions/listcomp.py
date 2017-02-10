@@ -17,6 +17,7 @@ print()
 
 sent = "now is the time for all good people to come to the aid of their party"
 words = sent.split(' ')
+# for each word create a tuple that includes the word and its length
 wlen = [(word, len(word)) for word in words]
 for i in wlen:
     print(i)
