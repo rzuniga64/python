@@ -12,6 +12,7 @@ less_than_zero = list(filter(lambda x: x < 0, number_list))
 print(less_than_zero)
 
 # Output: [-5, -4, -3, -2, -1]
+
 The filter resembles a for loop but it is a builtin function and faster.
 
 Note: If map & filter do not appear beautiful to you then you can read about
@@ -24,6 +25,7 @@ def even(number):
         return True
     else:
         return False
+
 
 def main():
 
