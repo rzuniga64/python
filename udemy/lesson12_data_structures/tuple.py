@@ -9,7 +9,7 @@ class Point:
         self.point = (x, y)
 
 
-# composition - has-a
+# composition - has-a. A Line has a Point.
 class Line:
     def __init__(self, point1, point2):
         self.point1 = point1
