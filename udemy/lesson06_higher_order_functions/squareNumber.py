@@ -11,7 +11,7 @@ def main():
     sq_num = sq_number(2)
     print(sq_num)
 
-    #map higher-order function
+    # map higher-order function
     numbers = [1, 2, 3, 4]
     numbers_sq = list(map(square, numbers))
     print(numbers_sq)
