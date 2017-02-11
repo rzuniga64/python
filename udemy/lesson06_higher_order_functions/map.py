@@ -9,6 +9,7 @@ Map applies a function to all the items in an input_list. Here is the blueprint:
 Blueprint
 
 map(function_to_apply, list_of_inputs)
+
 Most of the times we want to pass all the list elements to a function one-by-one
 and then collect the output. For instance:
 
@@ -21,6 +22,7 @@ Map allows us to implement this in a much simpler and nicer way. Here you go:
 
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
+
 Most of the times we use lambdas with map so I did the same.
 Instead of a list of inputs we can even have a list of functions!
 
