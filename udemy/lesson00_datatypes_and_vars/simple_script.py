@@ -23,6 +23,7 @@ def main():
     
     # f. Write one print statement that displays the values
     #   captured in 1b, 1d, and 1e.
-    print("Sum of 13 and 17 = %d" % sum_of_int, "\nName is %s" % full_name, "\n27 modulo 13 = %d" % modulo)
+    print("Sum of 13 and 17 = %d" % sum_of_int, "\nName is %s" % full_name, "\n"
+                                                "27 modulo 13 = %d" % modulo)
     
 main()
