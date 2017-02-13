@@ -17,5 +17,3 @@ print(somenames)
 print()
 names = drop(3, names)
 print(names)
-
-names.
