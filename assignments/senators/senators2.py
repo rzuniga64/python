@@ -12,11 +12,12 @@
 # Output:   a dictionary of senators and their corresponding state
 #           and a dictionary of state and their corresponding senators.
 
-def ProcessDocument( filename ):
+
+def ProcessDocument(filename):
     try:
-        document = open(filename )
+        document = open(filename)
     except:
-        print( "File " + filename + " did not open." )
+        print("File " + filename + " did not open.")
         document = open("senators.txt", "r")
 
     senators = dict()
@@ -27,9 +28,12 @@ def ProcessDocument( filename ):
         senatorFields = line.split("\t")
         theSenator = senatorFields[1].split()
         if "." in theSenator[1]:
-            senatorFields = [senatorFields[0], theSenator[0] +" " + theSenator[1], theSenator[2], theSenator[3]]+ senatorFields[2:]    
+            senatorFields = [senatorFields[0], theSenator[0] + " "
+                             + theSenator[1], theSenator[2], theSenator[3]] \
+                             + senatorFields[2:]
         else:
-            senatorFields = [senatorFields[0], theSenator[0], theSenator[1], theSenator[2]]+ senatorFields[2:]
+            senatorFields = [senatorFields[0], theSenator[0], theSenator[1],
+                             theSenator[2]] + senatorFields[2:]
             
         state = senatorFields[0]
         senator = senatorFields[2]
@@ -47,6 +51,7 @@ def ProcessDocument( filename ):
 # Input:    a key to search the states and senators dictionaries
 # Output:   state or senator if found and its key
 
+
 def getUserInput(senators, states):
     key = input("Give the senator's last name or state: ")
     
@@ -59,6 +64,8 @@ def getUserInput(senators, states):
 
 # this program use a dictionary to keep a list of senators for each state
 # and another dictionary to keep a list of the state of each senator
+
+
 def main():
 
     senators, states = ProcessDocument("senators.txt")
@@ -67,7 +74,7 @@ def main():
         
     while senator != 'Not found' or state != 'Not found':
         if senator != 'Not found':
-            print(senator[0] + " and " + senator[1], "are senators from ",key )
+            print(senator[0] + " and " + senator[1], "are senators from ", key)
         elif state != 'Not found':
             print(key, "is a senator from ", state)
         key, senator, state = getUserInput(senators, states)
