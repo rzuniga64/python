@@ -48,6 +48,14 @@ for i in range(5):
 """
 
 
+def multiply(x):
+    return x * x
+
+
+def add(x):
+    return x + x
+
+
 def square(number):
     return number * number
 
@@ -58,5 +66,15 @@ def main():
     print(numbers)
     numberssq = list(map(square, numbers))
     print(numberssq)
+    print()
+
+    funcs = [multiply, add]
+
+    # lambda argument: manipulate(argument)
+    # map(function_to_apply, list_of_inputs)
+
+    for i in range(5):
+        value = list(map(lambda x: x(i), funcs))
+        print(value)
 
 main()
