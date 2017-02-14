@@ -69,7 +69,7 @@ def the_game():
     if total <= 16:
         print("Hit me!")
         total += hit_me()
-    elif total > 16 and total < 21:
+    elif 16 < total < 21:
         print("Don't hit me")
     elif total == 21:
         print("Blackjack!")
