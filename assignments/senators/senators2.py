@@ -35,7 +35,7 @@ def ProcessDocument( filename ):
         senator = senatorFields[2]
         senators[senator] = state
         if state in states:
-            states[state] = states[state] + [senator]
+            states[state] += [senator]
         else:
             states[state] = [senator]
             
