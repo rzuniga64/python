@@ -40,33 +40,23 @@ appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the output.
 """
 
 
-def count_letters(words):
-    if len(words) < 1:
-        return 0
-    else:
-        return len(words[0]) + count_letters(words[1:])
-
-
 def main():
+
+    from collections import OrderedDict
+    d = OrderedDict()
     n = int(input())
-    if 1 <= n <= pow(10, 5):
-        num_words = dict()
-        for i in range(0, n):
-            word = input()
-            word = word.strip('\n')
-            if word in num_words and word.islower():
-                num_words[word] += 1
-            else:
-                num_words[word] = 1
-    try:
-        if (count_letters(list(num_words.keys())) < pow(10, 6)):
-            print(len(num_words.keys()))
-            for word_count in num_words.values():
-                print(str(word_count) + ' ', end='')
+    for _ in range(n):
+        ip = input()
+        if d.get(ip):
+            d[ip] += 1
         else:
-            raise RuntimeError()
-    except RuntimeError:
-        print("The sum of the lengths of all the words exceeds pow(10,6")
+            d[ip] = 1
+    print(len(d.items()))
+    for k, v in d.items():
+        print(v, end=" ")
+
+main()
+
 
 
 main()
