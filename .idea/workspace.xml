@@ -1,209 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930d90bb-e50c-4ade-b0d4-46dccbea1437" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignments/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/cs3320a0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basic_flask_app/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/blog.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/cs3320a2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/static/stylesheets/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/blog_entry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog_app/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/cs3320p1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/data/authors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/data/books.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/static/Elizabeth_I_when_a_Princess.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/static/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/author.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/authors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/book.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/books.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/editions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/book_browser/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/chat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/cs3320a3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/routes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/images/mqdefault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/static/stylesheets/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/chat_app/templates/join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/gameengine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/myapp.wsgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/project5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/routes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/js/game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/js/waitingroom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/static/stylesheets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/gameroom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/connect4/templates/waitingroom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/myapp.wsgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/project4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/follow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/images/mqdefault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/js/dropzone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/post.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/stylesheets/dropzone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/static/stylesheets/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/edit_profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/templates/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microblog/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/cs3320a1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/12night.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/12night.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/allswell.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/antonycleo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/asyoulikeit.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/comedyerrors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/coriolanus.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/cymbeline.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/hamlet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry4p1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry4p2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry6p3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/henry8.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/juliuscaesar.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/kingjohn.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/kinglear.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/loveslabours.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/macbeth.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/measure.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/merchantvenice.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/merrywives.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/midsummer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/muchado.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/othello.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/pericles.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/richard2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/richard3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/romeojuliet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/tamingshrew.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/tempest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/timonathens.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/titus.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/troilus.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/twogents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/data/winterstale.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/characters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/play.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/scenes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/play_browser/templates/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/docs/erd.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/init.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/project3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/images/mqdefault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/stylesheets/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/static/votes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/bad_answer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/question.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/question_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/tag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/templates/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q_&amp;_a/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/project2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/mqdefault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/static/tyrion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/url_shortener/templates/preview.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/__init__.py" afterPath="$PROJECT_DIR$/web_apps/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/__init__.py" afterPath="$PROJECT_DIR$/assignments/years_of_service/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/card_game.py" afterPath="$PROJECT_DIR$/assignments/card_game/card_game.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/card_game/test_deck.py" afterPath="$PROJECT_DIR$/assignments/card_game/test_deck.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/__init__.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/card.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/card.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/deck_of_cards/deck.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/deck.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/__init__.py" afterPath="$PROJECT_DIR$/assignments/senators/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/encoder.docx" afterPath="$PROJECT_DIR$/assignments/encoder/encoder.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/encoder.py" afterPath="$PROJECT_DIR$/assignments/encoder/encoder.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/encoder/message.txt" afterPath="$PROJECT_DIR$/assignments/encoder/message.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/113thCongress.txt" afterPath="$PROJECT_DIR$/assignments/final_exam/113thCongress.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/__init__.py" afterPath="$PROJECT_DIR$/assignments/party_affiliation/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/congressman.txt" afterPath="$PROJECT_DIR$/assignments/final_exam/congressman.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_exam/exam.py" afterPath="$PROJECT_DIR$/assignments/final_exam/exam.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/LabelEntry.py" afterPath="$PROJECT_DIR$/assignments/final_project/LabelEntry.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/StudentContainer.py" afterPath="$PROJECT_DIR$/assignments/final_project/StudentContainer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/StudentDB.py" afterPath="$PROJECT_DIR$/assignments/final_project/StudentDB.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/final_project/__init__.py" afterPath="$PROJECT_DIR$/assignments/grains_of_rice/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/grains_of_rice/__init__.py" afterPath="$PROJECT_DIR$/assignments/final_project/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/grains_of_rice/grains_of_rice.py" afterPath="$PROJECT_DIR$/assignments/grains_of_rice/grains_of_rice.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/TexasSenate.txt" afterPath="$PROJECT_DIR$/assignments/party_affiliation/TexasSenate.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/TxSenatorsDict.py" afterPath="$PROJECT_DIR$/assignments/party_affiliation/TxSenatorsDict.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/party_affiliation/__init__.py" afterPath="$PROJECT_DIR$/assignments/final_exam/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/__init__.py" afterPath="$PROJECT_DIR$/assignments/encoder/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators.py" afterPath="$PROJECT_DIR$/assignments/senators/senators.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators.txt" afterPath="$PROJECT_DIR$/assignments/senators/senators.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators2.py" afterPath="$PROJECT_DIR$/assignments/senators/senators2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/senators/senators_deitch.py" afterPath="$PROJECT_DIR$/assignments/senators/senators_deitch.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/__init__.py" afterPath="$PROJECT_DIR$/assignments/deck_of_cards/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/senators.db" afterPath="$PROJECT_DIR$/assignments/sqlite3/senators.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/senators.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/senators.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/sqlite3/student_survey_lisa.py" afterPath="$PROJECT_DIR$/assignments/sqlite3/student_survey_lisa.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/years_of_service/__init__.py" afterPath="$PROJECT_DIR$/assignments/card_game/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/assignments/years_of_service/senatorService.py" afterPath="$PROJECT_DIR$/assignments/years_of_service/senatorService.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/url_shortener/__init__.py" afterPath="$PROJECT_DIR$/assignments/__init__.py" />
+    <list default="true" id="930d90bb-e50c-4ade-b0d4-46dccbea1437" name="Default" comment="Update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/basic_data_types/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/intro/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/exercises/leap_year.py" afterPath="$PROJECT_DIR$/exercises/intro/leap_year.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/exercises/nested_lists.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/nested_lists.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/labs/second_largest_num.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/second_largest_num.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/list_comprehensions.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/list_comprehensions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/lesson05_builtin_functions/hash.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/hash.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/lesson12_data_structures/dict_percentages.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/dict_percentages.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/udemy/lesson12_data_structures/list_commands.py" afterPath="$PROJECT_DIR$/exercises/basic_data_types/list_commands.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -216,16 +27,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$equi.coverage" NAME="equi Coverage Results" MODIFIED="1486805446592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$leap_year.coverage" NAME="leap_year Coverage Results" MODIFIED="1486853794145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$strings.coverage" NAME="strings Coverage Results" MODIFIED="1487110041479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars" />
+    <SUITE FILE_PATH="coverage/python$list.coverage" NAME="list Coverage Results" MODIFIED="1487044233945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$spheretest.coverage" NAME="spheretest Coverage Results" MODIFIED="1486758373553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson08_module" />
+    <SUITE FILE_PATH="coverage/python$unpacking_argument_lists.coverage" NAME="unpacking_argument_lists Coverage Results" MODIFIED="1487066269932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
+    <SUITE FILE_PATH="coverage/python$filename.coverage" NAME="filename Coverage Results" MODIFIED="1486772653666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson11_exceptionhandling" />
+    <SUITE FILE_PATH="coverage/python$mutations.coverage" NAME="mutations Coverage Results" MODIFIED="1487120385681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$newtontest2.coverage" NAME="newtontest2 Coverage Results" MODIFIED="1486757872763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson08_module" />
+    <SUITE FILE_PATH="coverage/python$Student.coverage" NAME="Student Coverage Results" MODIFIED="1486760001282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
+    <SUITE FILE_PATH="coverage/python$square_lambda.coverage" NAME="square_lambda Coverage Results" MODIFIED="1486851196928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
     <SUITE FILE_PATH="coverage/python$project2.coverage" NAME="project2 Coverage Results" MODIFIED="1465364212201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
+    <SUITE FILE_PATH="coverage/python$hash.coverage" NAME="hash Coverage Results" MODIFIED="1487062689305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson05_builtin_functions" />
+    <SUITE FILE_PATH="coverage/python$map.coverage" NAME="map Coverage Results" MODIFIED="1487125307475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
     <SUITE FILE_PATH="coverage/python$project5.coverage" NAME="project5 Coverage Results" MODIFIED="1465367602205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect4" />
-    <SUITE FILE_PATH="coverage/python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1465364350711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
-    <SUITE FILE_PATH="coverage/python$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1465364136690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
-    <SUITE FILE_PATH="coverage/python$project3.coverage" NAME="project3 Coverage Results" MODIFIED="1465364531404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
-    <SUITE FILE_PATH="coverage/python$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1465363964327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_browser" />
+    <SUITE FILE_PATH="coverage/python$remove_dupes.coverage" NAME="remove_dupes Coverage Results" MODIFIED="1486846183765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$consructor_methods.coverage" NAME="consructor_methods Coverage Results" MODIFIED="1486759295941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
     <SUITE FILE_PATH="coverage/python$project4.coverage" NAME="project4 Coverage Results" MODIFIED="1465365668839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/microblog" />
+    <SUITE FILE_PATH="coverage/python$map_list_funcs.coverage" NAME="map_list_funcs Coverage Results" MODIFIED="1486850098652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$Omelet.coverage" NAME="Omelet Coverage Results" MODIFIED="1486770618500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
+    <SUITE FILE_PATH="coverage/python$except.coverage" NAME="except Coverage Results" MODIFIED="1486771212549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson11_exceptionhandling" />
+    <SUITE FILE_PATH="coverage/python$name.coverage" NAME="name Coverage Results" MODIFIED="1486759086294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
+    <SUITE FILE_PATH="coverage/python$filter.coverage" NAME="filter Coverage Results" MODIFIED="1487064549123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
+    <SUITE FILE_PATH="coverage/python$second_largest_num.coverage" NAME="second_largest_num Coverage Results" MODIFIED="1487071982632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1465363964327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_browser" />
+    <SUITE FILE_PATH="coverage/python$Account.coverage" NAME="Account Coverage Results" MODIFIED="1486762527336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson10_inheritance" />
+    <SUITE FILE_PATH="coverage/python$Employee.coverage" NAME="Employee Coverage Results" MODIFIED="1486762298447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson10_inheritance" />
+    <SUITE FILE_PATH="coverage/python$listcompfile.coverage" NAME="listcompfile Coverage Results" MODIFIED="1486782471756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson04_listcomprehensions" />
+    <SUITE FILE_PATH="coverage/python$swap_case.coverage" NAME="swap_case Coverage Results" MODIFIED="1487113054161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1486762095067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson10_inheritance" />
+    <SUITE FILE_PATH="coverage/python$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1487062797113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
+    <SUITE FILE_PATH="coverage/python$list_comprehensions.coverage" NAME="list_comprehensions Coverage Results" MODIFIED="1487069323580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson04_listcomprehensions" />
+    <SUITE FILE_PATH="coverage/python$Savings.coverage" NAME="Savings Coverage Results" MODIFIED="1486762993880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson10_inheritance" />
+    <SUITE FILE_PATH="coverage/python$equi__1_.coverage" NAME="equi (1) Coverage Results" MODIFIED="1486796682021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1486773554241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
+    <SUITE FILE_PATH="coverage/python$list__1_.coverage" NAME="list (1) Coverage Results" MODIFIED="1487043061974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$anonymous_function.coverage" NAME="anonymous_function Coverage Results" MODIFIED="1486803642702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1487043297630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs" />
+    <SUITE FILE_PATH="coverage/python$project3.coverage" NAME="project3 Coverage Results" MODIFIED="1465364531404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
+    <SUITE FILE_PATH="coverage/python$find_a_string.coverage" NAME="find_a_string Coverage Results" MODIFIED="1487121844637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$split_and_join.coverage" NAME="split_and_join Coverage Results" MODIFIED="1487113068605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$Car.coverage" NAME="Car Coverage Results" MODIFIED="1486769618271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
+    <SUITE FILE_PATH="coverage/python$Person.coverage" NAME="Person Coverage Results" MODIFIED="1486760839630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
+    <SUITE FILE_PATH="coverage/python$newtontest.coverage" NAME="newtontest Coverage Results" MODIFIED="1486757846630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson08_module" />
+    <SUITE FILE_PATH="coverage/python$list_of_lists.coverage" NAME="list_of_lists Coverage Results" MODIFIED="1486782594402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson04_listcomprehensions" />
+    <SUITE FILE_PATH="coverage/python$zip.coverage" NAME="zip Coverage Results" MODIFIED="1486804207399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson05_builtin_functions" />
+    <SUITE FILE_PATH="coverage/python$dict.coverage" NAME="dict Coverage Results" MODIFIED="1487106080418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
+    <SUITE FILE_PATH="coverage/python$listcomp.coverage" NAME="listcomp Coverage Results" MODIFIED="1487122409796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson04_listcomprehensions" />
+    <SUITE FILE_PATH="coverage/python$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1465364136690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/url_shortener" />
+    <SUITE FILE_PATH="coverage/python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1465364350711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_&amp;_a" />
+    <SUITE FILE_PATH="coverage/python$try2.coverage" NAME="try2 Coverage Results" MODIFIED="1486771705781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson11_exceptionhandling" />
+    <SUITE FILE_PATH="coverage/python$dict_percentages.coverage" NAME="dict_percentages Coverage Results" MODIFIED="1487109501663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
     <SUITE FILE_PATH="coverage/python$cs3320p1.coverage" NAME="cs3320p1 Coverage Results" MODIFIED="1465363969243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_browser" />
+    <SUITE FILE_PATH="coverage/python$reduce.coverage" NAME="reduce Coverage Results" MODIFIED="1486798727441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
+    <SUITE FILE_PATH="coverage/python$builtin.coverage" NAME="builtin Coverage Results" MODIFIED="1486804557446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson08_module" />
+    <SUITE FILE_PATH="coverage/python$tuple2.coverage" NAME="tuple2 Coverage Results" MODIFIED="1487062967516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
+    <SUITE FILE_PATH="coverage/python$nested_lists.coverage" NAME="nested_lists Coverage Results" MODIFIED="1487103137027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/python$Line.coverage" NAME="Line Coverage Results" MODIFIED="1486770896365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson10_inheritance" />
+    <SUITE FILE_PATH="coverage/python$simple_script.coverage" NAME="simple_script Coverage Results" MODIFIED="1487022694560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars" />
+    <SUITE FILE_PATH="coverage/python$dict_grades.coverage" NAME="dict_grades Coverage Results" MODIFIED="1487106754615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson12_data_structures" />
+    <SUITE FILE_PATH="coverage/python$raise.coverage" NAME="raise Coverage Results" MODIFIED="1486772154928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson11_exceptionhandling" />
+    <SUITE FILE_PATH="coverage/python$whats_your_name.coverage" NAME="whats_your_name Coverage Results" MODIFIED="1487113338930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$try.coverage" NAME="try Coverage Results" MODIFIED="1486771689361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson11_exceptionhandling" />
+    <SUITE FILE_PATH="coverage/python$senators2.coverage" NAME="senators2 Coverage Results" MODIFIED="1487105914339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/senators" />
+    <SUITE FILE_PATH="coverage/python$string_validators.coverage" NAME="string_validators Coverage Results" MODIFIED="1487126763607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/strings" />
+    <SUITE FILE_PATH="coverage/python$nested_lists__1_.coverage" NAME="nested_lists (1) Coverage Results" MODIFIED="1487099409369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises" />
+    <SUITE FILE_PATH="coverage/python$Recipe.coverage" NAME="Recipe Coverage Results" MODIFIED="1486770833817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udemy/lesson09_classes" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -235,14 +104,152 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="string_validators.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/exercises/strings/string_validators.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="519">
+                  <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="equi.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/equi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="leap_year.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/intro/leap_year.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list_commands.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/list_commands.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="485">
+                  <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tuple2.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/tuple2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="434">
+                  <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tuple.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/tuple.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list_of_lists.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson04_listcomprehensions/list_of_lists.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list_comprehensions.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/list_comprehensions.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list_exer.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list_exer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list2.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>end</find>
+      <find>map</find>
+      <find>split</find>
+      <find>print</find>
+      <find>unzip</find>
+      <find>zip</find>
+      <find>key=</find>
+      <find>&quot;&quot;</find>
+      <find>=&quot;&quot;</find>
+      <find>lower</find>
+      <find>unique</find>
+      <find>eval</find>
+      <find>hash</find>
+      <find>second largest</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -251,18 +258,64 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/play_browser/manage.py" />
-        <option value="$PROJECT_DIR$/blog_app/static/stylesheets/styles.css" />
-        <option value="$PROJECT_DIR$/q_&amp;_a/settings.py" />
-        <option value="$PROJECT_DIR$/microblog/settings.py" />
-        <option value="$PROJECT_DIR$/microblog/views.py" />
-        <option value="$PROJECT_DIR$/connect4/settings.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson11_exceptionhandling/filename.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson11_exceptionhandling/calculator.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/numwords.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/takedrop.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/tuple.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/dictionary.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/equilibrium.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/equi.js" />
+        <option value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/listcomp.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/list_of_lists.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/equi.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/acronym.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/highorderfunctions.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/filter.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/reduce.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson05_builtin_functions/zip.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/anonymous_function.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/squareNumber.py" />
+        <option value="$PROJECT_DIR$/labs/remove_dupes.py" />
+        <option value="$PROJECT_DIR$/labs/equi.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/map.py" />
+        <option value="$PROJECT_DIR$/labs/map_list_funcs.py" />
+        <option value="$PROJECT_DIR$/labs/square_lambda.py" />
+        <option value="$PROJECT_DIR$/labs/leap_year.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/boolean.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/numbers.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/set.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/simple_script.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/strings.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/tuple.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/list.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/list2.py" />
+        <option value="$PROJECT_DIR$/labs/test.py" />
+        <option value="$PROJECT_DIR$/labs/list.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson05_builtin_functions/hash.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/unpacking_argument_lists.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/list_comprehensions.py" />
+        <option value="$PROJECT_DIR$/labs/blackjack.py" />
+        <option value="$PROJECT_DIR$/labs/second_largest_num.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/nested_lists.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/list_commands.py" />
+        <option value="$PROJECT_DIR$/exercises/nested_lists.py" />
+        <option value="$PROJECT_DIR$/assignments/senators/senators2.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/dict.py" />
+        <option value="$PROJECT_DIR$/udemy/lesson12_data_structures/dict_percentages.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/swap_case.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/split_and_join.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/whats_your_name.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/mutations.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/find_a_string.py" />
+        <option value="$PROJECT_DIR$/exercises/strings/string_validators.py" />
       </list>
     </option>
   </component>
@@ -273,20 +326,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="30" />
-    <option name="width" value="1167" />
-    <option name="height" value="782" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -313,12 +356,6 @@
               <option name="myItemId" value="python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -334,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web_apps" />
+              <option name="myItemId" value="udemy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,7 +385,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assignments" />
+              <option name="myItemId" value="udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson12_data_structures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson05_builtin_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson04_listcomprehensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic_data_types" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,114 +504,126 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\User\Owner\git\python\udemy\lesson12_data_structures" />
+      <recent name="C:\User\Owner\git\python\udemy\lesson06_higher_order_functions" />
+      <recent name="C:\User\Owner\git\python\udemy\lesson11_exceptionhandling" />
+      <recent name="C:\User\Owner\git\python\udemy\lesson09_classes" />
       <recent name="C:\User\Owner\git\python\connect4" />
-      <recent name="C:\User\Owner\git\python\microblog" />
-      <recent name="C:\User\Owner\git\python\q_&amp;_a" />
-      <recent name="C:\User\Owner\git\python\url_shortener" />
-      <recent name="C:\User\Owner\git\python\book_browser" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\User\Owner\git\python\web_apps" />
-      <recent name="C:\User\Owner\git\python" />
-      <recent name="C:\User\Owner\git\python\udemy" />
-      <recent name="C:\Users\Roy\git\python\src\lesson21_django_web_app_framework" />
+      <recent name="C:\User\Owner\git\python\exercises\basic_data_types" />
+      <recent name="C:\User\Owner\git\python\exercises\intro" />
+      <recent name="C:\User\Owner\git\python\udemy\lesson05_builtin_functions" />
+      <recent name="C:\User\Owner\git\python\exercises\strings" />
+      <recent name="C:\User\Owner\git\python\exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.project5">
-    <configuration default="false" name="project2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.string_validators">
+    <configuration default="false" name="mutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/url_shortener" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/url_shortener/project2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/strings/mutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="project3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="find_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q_&amp;_a" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q_&amp;_a/project3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/strings/find_a_string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="listcomp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q_&amp;_a" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q_&amp;_a/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy/lesson04_listcomprehensions/listcomp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="project4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="map" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/microblog" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/microblog/project4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/udemy/lesson06_higher_order_functions/map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="project5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="string_validators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/strings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect4/project5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/strings/string_validators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNMethodRunConfiguration" factoryName="DB Method">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNStatementRunConfiguration" factoryName="DB Statement">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -491,6 +644,12 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -566,7 +725,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -683,27 +842,25 @@
       <method />
     </configuration>
     <configuration default="false" name="DB Method Runner" type="DBNMethodRunConfiguration" factoryName="DB Method">
+      <category value="TEMPLATE" />
       <compile-dependencies value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="DB Statement Runner" type="DBNStatementRunConfiguration" factoryName="DB Statement">
-      <compile-dependencies value="true" />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.project2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.project3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="3" class="java.lang.String" itemvalue="Python.project4" />
-      <item index="4" class="java.lang.String" itemvalue="Python.project5" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="DB Method.DB Method Runner" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mutations" />
+      <item index="2" class="java.lang.String" itemvalue="Python.find_a_string" />
+      <item index="3" class="java.lang.String" itemvalue="Python.listcomp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.map" />
+      <item index="5" class="java.lang.String" itemvalue="Python.string_validators" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.project5" />
-        <item index="1" class="java.lang.String" itemvalue="Python.project4" />
-        <item index="2" class="java.lang.String" itemvalue="Python.project3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.project2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.string_validators" />
+        <item index="1" class="java.lang.String" itemvalue="Python.map" />
+        <item index="2" class="java.lang.String" itemvalue="Python.listcomp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.find_a_string" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mutations" />
       </list>
     </recent_temporary>
   </component>
@@ -721,108 +878,384 @@
       <option name="presentableId" value="Default" />
       <updated>1437115199754</updated>
     </task>
-    <task id="LOCAL-00001" summary="refactoring python files">
-      <created>1437115426341</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00018" summary="add connect4 app - project 5&#10;">
+      <created>1486761011929</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1437115426341</updated>
+      <updated>1486761011929</updated>
     </task>
-    <task id="LOCAL-00002" summary="refactoring python files">
-      <created>1437115460944</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00019" summary="add connect4 app - project 5&#10;">
+      <created>1486761113385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1437115460944</updated>
+      <updated>1486761113385</updated>
     </task>
-    <task id="LOCAL-00003" summary="refactoring python files">
-      <created>1438664524865</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00020" summary="add connect4 app - project 5&#10;">
+      <created>1486763265764</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1438664524865</updated>
+      <updated>1486763265764</updated>
     </task>
-    <task id="LOCAL-00004" summary="add basic flask app">
-      <created>1464646577694</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00021" summary="add connect4 app - project 5&#10;">
+      <created>1486770337788</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1464646577694</updated>
+      <updated>1486770337788</updated>
     </task>
-    <task id="LOCAL-00005" summary="add play browser app&#10;">
-      <created>1464647942000</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00022" summary="add connect4 app - project 5&#10;">
+      <created>1486770910836</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1464647942000</updated>
+      <updated>1486770910836</updated>
     </task>
-    <task id="LOCAL-00006" summary="add book browser app - project 1&#10;">
-      <created>1465364003963</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00023" summary="add connect4 app - project 5&#10;">
+      <created>1486772679540</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1465364003963</updated>
+      <updated>1486772679540</updated>
     </task>
-    <task id="LOCAL-00007" summary="add url shortener app - project 2&#10;">
-      <created>1465364118854</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00024" summary="add connect4 app - project 5&#10;">
+      <created>1486773671409</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1465364118854</updated>
+      <updated>1486773671409</updated>
     </task>
-    <task id="LOCAL-00008" summary="add q &amp; a app - project 3&#10;">
-      <created>1465364599293</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00025" summary="add connect4 app - project 5&#10;">
+      <created>1486782707784</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1465364599293</updated>
+      <updated>1486782707784</updated>
     </task>
-    <task id="LOCAL-00009" summary="add microblob app - project 4&#10;">
-      <created>1465365736565</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00026" summary="Add equilibrium example.">
+      <created>1486796709057</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1465365736565</updated>
+      <updated>1486796709057</updated>
     </task>
-    <task id="LOCAL-00010" summary="add connect4 app - project 5&#10;">
-      <created>1465367719127</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00027" summary="add connect4 app - project 5&#10;">
+      <created>1486797136124</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1465367719127</updated>
+      <updated>1486797136124</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00028" summary="update">
+      <created>1486797606994</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1486797606994</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add reduce example">
+      <created>1486797843007</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1486797843007</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add filter example.">
+      <created>1486797911048</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1486797911048</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update">
+      <created>1486798305171</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1486798305171</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update">
+      <created>1486798493519</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1486798493519</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add connect4 app - project 5&#10;">
+      <created>1486798751295</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1486798751295</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add connect4 app - project 5&#10;">
+      <created>1486804225559</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1486804225559</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add connect4 app - project 5&#10;">
+      <created>1486804395157</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1486804395157</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update">
+      <created>1486804455191</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1486804455191</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update">
+      <created>1486804599911</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1486804599912</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Update&#10;">
+      <created>1486804860766</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1486804860766</updated>
+    </task>
+    <task id="LOCAL-00039" summary="remove duplicates example">
+      <created>1486845137084</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1486845137084</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add connect4 app - project 5&#10;">
+      <created>1486851945645</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1486851945645</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add connect4 app - project 5&#10;">
+      <created>1486853807779</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1486853807779</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Update&#10;">
+      <created>1487022555673</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1487022555673</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Update">
+      <created>1487022597582</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1487022597582</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add connect4 app - project 5&#10;">
+      <created>1487022632526</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1487022632526</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add connect4 app - project 5&#10;">
+      <created>1487022809191</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1487022809191</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Update">
+      <created>1487022900224</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1487022900224</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add connect4 app - project 5&#10;">
+      <created>1487023029942</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1487023029942</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add connect4 app - project 5&#10;">
+      <created>1487044332512</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1487044332512</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add connect4 app - project 5&#10;">
+      <created>1487055376187</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1487055376187</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update">
+      <created>1487055414179</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1487055414181</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Update">
+      <created>1487064812688</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1487064812688</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update">
+      <created>1487067569509</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1487067569510</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add connect4 app - project 5&#10;">
+      <created>1487068426505</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1487068426505</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update">
+      <created>1487071258447</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1487071258447</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Add nested list example">
+      <created>1487103316841</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1487103316842</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Update">
+      <created>1487105541402</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1487105541402</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Update">
+      <created>1487105696582</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1487105696582</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Update">
+      <created>1487105883807</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1487105883807</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add connect4 app - project 5&#10;">
+      <created>1487106255186</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1487106255186</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Add dictionary example">
+      <created>1487109022993</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1487109022993</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Add swapcase example">
+      <created>1487112263218</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1487112263218</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Update">
+      <created>1487113399221</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1487113399221</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add connect4 app - project 5&#10;">
+      <created>1487120455774</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1487120455774</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add connect4 app - project 5&#10;">
+      <created>1487121972665</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1487121972665</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Update">
+      <created>1487126940825</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1487126940825</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Update">
+      <created>1487127078218</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1487127078218</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="30" width="1167" height="782" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46612465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45746166" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1773779" sideWeight="0.83430797" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26638773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17544988" sideWeight="0.165692" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38683787" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -843,263 +1276,446 @@
     <MESSAGE value="add url shortener app - project 2&#10;" />
     <MESSAGE value="add q &amp; a app - project 3&#10;" />
     <MESSAGE value="add microblob app - project 4&#10;" />
+    <MESSAGE value="Add equilibrium example." />
+    <MESSAGE value="Add reduce example" />
+    <MESSAGE value="Add filter example." />
+    <MESSAGE value="remove duplicates example" />
+    <MESSAGE value="Update&#10;" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Add nested list example" />
+    <MESSAGE value="Add dictionary example" />
+    <MESSAGE value="Add swapcase example" />
     <MESSAGE value="add connect4 app - project 5&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add connect4 app - project 5&#10;" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assignments/senators/senators2.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/map.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="59" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/views.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/unpacking_argument_lists.py" />
+    <entry file="file://$PROJECT_DIR$/labs/blackjack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/second_largest_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/activity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/myapp.wsgi">
+    <entry file="file://$PROJECT_DIR$/labs/integer_converter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/labs/money.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/init.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/recursion_remove_dups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/project3.py">
+    <entry file="file://$PROJECT_DIR$/assignments/senators/senators_deitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="264" column="6" lean-forward="false" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/senators.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/models.py">
+    <entry file="file://$PROJECT_DIR$/labs/temp_conversion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/views.py">
+    <entry file="file://$PROJECT_DIR$/labs/senators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/settings.py">
+    <entry file="file://$PROJECT_DIR$/assignments/senators/senators2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/dict_grades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/dict_word_count.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/static/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/dict_percentages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/final_project/LabelEntry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udemy/lesson21_django_web_app_framework/settings.py">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/whats_your_name.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udemy/lesson11_iterators/chap9ex1.py">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/mutations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udemy/lesson21_django_web_app_framework/settings.py">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/split_and_join.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udemy/.gitignore">
+    <entry file="file://C:/Python36-32/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="186">
+          <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson00_datatypes_and_vars/strings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/README.txt">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson05_functions/function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="166">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/cs3320a1.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson05_functions/predicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/basic_flask_app/manage.py">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/find_a_string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/play_browser/manage.py">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/unique_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/book_browser/data/books.json">
+    <entry file="file://$PROJECT_DIR$/exercises/strings/swap_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/static/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/static/style.css">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson04_listcomprehensions/listcompfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/blog_app/settings.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson04_listcomprehensions/listcomp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/settings.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson06_higher_order_functions/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="309" column="14" lean-forward="true" selection-start-line="309" selection-start-column="14" selection-end-line="309" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/strings/string_validators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udemy/lesson05_builtin_functions/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/map_list_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/nested_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/remove_dupes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/square_lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/equi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/views.py">
+    <entry file="file://$PROJECT_DIR$/exercises/intro/leap_year.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/project3.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list_exer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/q_&amp;_a/init.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/url_shortener/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/list2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/static/js/dropzone.js">
+    <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/list_commands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="485">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/settings.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/tuple2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="434">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/myapp.wsgi">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson12_data_structures/tuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/models.py">
+    <entry file="file://$PROJECT_DIR$/exercises/basic_data_types/list_comprehensions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/microblog/views.py">
+    <entry file="file://$PROJECT_DIR$/udemy/lesson04_listcomprehensions/list_of_lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/connect4/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_apps/connect4/static/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
